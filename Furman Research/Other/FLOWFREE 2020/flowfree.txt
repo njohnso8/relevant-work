@@ -1,0 +1,42 @@
+
+
+
+
+
+set Paths;
+set Rows;
+set Columns;
+set extRows;
+set extColumns;
+set S dimen 3;
+
+
+var x{i in extRows, j in extColumns, k in Paths} binary;
+
+#parameters
+
+param dummy{i in Rows, j in Columns};
+
+param y{i in Rows, j in Columns, k in Paths} binary;
+
+
+maximize objective: sum{i in Rows}(sum{j in Columns} (sum{k in Paths}(x[i,j,k])));
+
+
+s.t. pathConstraint{i in Rows, j in Columns}: sum{k in Paths}(x[i,j,k]) = 1;
+
+s.t. continuityConstraint1{i in Rows, j in Columns, k in Paths}: 2*x[i,j,k] <= x[i+1,j,k] + x[i-1,j,k] + x[i,j-1,k] + x[i,j+1,k] + y[i,j,k];
+
+s.t. continuityConstraint2{i in Rows, j in Columns, k in Paths}: x[i+1,j,k] + x[i-1,j,k] + x[i,j-1,k] + x[i,j+1,k] <= 3 - x[i,j,k];
+
+s.t. endpointConstraint1{i in Rows, j in Columns, k in Paths}: y[i,j,k] * (1-(x[i+1,j,k] + x[i-1,j,k] + x[i,j-1,k] + x[i,j+1,k])) = 0;
+
+s.t. endpointConstraint2{i in Rows, j in Columns, k in Paths}: x[i,j,k] >= y[i,j,k];
+
+s.t. outOfBounds1{i in Rows, j in {0, 15}, k in Paths}: x[i,j,k] = 0;
+
+s.t. outOfBounds2{i in {0, 15}, j in Columns, k in Paths}: x[i,j,k] = 0;
+
+
+solve;
+end;

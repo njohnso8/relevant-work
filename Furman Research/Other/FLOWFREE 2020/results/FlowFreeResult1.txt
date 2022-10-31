@@ -1,0 +1,1590 @@
+Problem:    NewModelFile
+Rows:       626
+Columns:    225 (225 integer, 225 binary)
+Non-zeros:  1765
+Status:     INTEGER OPTIMAL
+Objective:  objective = 25 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 objective                  25                             
+     2 pathConstraint[1,1]
+                                   1             1             = 
+     3 pathConstraint[1,2]
+                                   1             1             = 
+     4 pathConstraint[1,3]
+                                   1             1             = 
+     5 pathConstraint[1,4]
+                                   1             1             = 
+     6 pathConstraint[1,5]
+                                   1             1             = 
+     7 pathConstraint[2,1]
+                                   1             1             = 
+     8 pathConstraint[2,2]
+                                   1             1             = 
+     9 pathConstraint[2,3]
+                                   1             1             = 
+    10 pathConstraint[2,4]
+                                   1             1             = 
+    11 pathConstraint[2,5]
+                                   1             1             = 
+    12 pathConstraint[3,1]
+                                   1             1             = 
+    13 pathConstraint[3,2]
+                                   1             1             = 
+    14 pathConstraint[3,3]
+                                   1             1             = 
+    15 pathConstraint[3,4]
+                                   1             1             = 
+    16 pathConstraint[3,5]
+                                   1             1             = 
+    17 pathConstraint[4,1]
+                                   1             1             = 
+    18 pathConstraint[4,2]
+                                   1             1             = 
+    19 pathConstraint[4,3]
+                                   1             1             = 
+    20 pathConstraint[4,4]
+                                   1             1             = 
+    21 pathConstraint[4,5]
+                                   1             1             = 
+    22 pathConstraint[5,1]
+                                   1             1             = 
+    23 pathConstraint[5,2]
+                                   1             1             = 
+    24 pathConstraint[5,3]
+                                   1             1             = 
+    25 pathConstraint[5,4]
+                                   1             1             = 
+    26 pathConstraint[5,5]
+                                   1             1             = 
+    27 continuityConstraint1[1,1,Blue]
+                                   0                          -0 
+    28 continuityConstraint1[1,1,Red]
+                                   1                           1 
+    29 continuityConstraint1[1,1,Green]
+                                  -1                          -0 
+    30 continuityConstraint1[1,1,Yellow]
+                                   0                          -0 
+    31 continuityConstraint1[1,1,Orange]
+                                   0                          -0 
+    32 continuityConstraint1[1,2,Blue]
+                                   0                          -0 
+    33 continuityConstraint1[1,2,Red]
+                                  -1                          -0 
+    34 continuityConstraint1[1,2,Green]
+                                   0                          -0 
+    35 continuityConstraint1[1,2,Yellow]
+                                   0                          -0 
+    36 continuityConstraint1[1,2,Orange]
+                                   0                          -0 
+    37 continuityConstraint1[1,3,Blue]
+                                  -1                          -0 
+    38 continuityConstraint1[1,3,Red]
+                                   0                          -0 
+    39 continuityConstraint1[1,3,Green]
+                                   1                           1 
+    40 continuityConstraint1[1,3,Yellow]
+                                  -1                          -0 
+    41 continuityConstraint1[1,3,Orange]
+                                   0                          -0 
+    42 continuityConstraint1[1,4,Blue]
+                                   0                          -0 
+    43 continuityConstraint1[1,4,Red]
+                                   0                          -0 
+    44 continuityConstraint1[1,4,Green]
+                                  -1                          -0 
+    45 continuityConstraint1[1,4,Yellow]
+                                   0                          -0 
+    46 continuityConstraint1[1,4,Orange]
+                                   0                          -0 
+    47 continuityConstraint1[1,5,Blue]
+                                   0                          -0 
+    48 continuityConstraint1[1,5,Red]
+                                   0                          -0 
+    49 continuityConstraint1[1,5,Green]
+                                   0                          -0 
+    50 continuityConstraint1[1,5,Yellow]
+                                   1                           1 
+    51 continuityConstraint1[1,5,Orange]
+                                  -1                          -0 
+    52 continuityConstraint1[2,1,Blue]
+                                   0                          -0 
+    53 continuityConstraint1[2,1,Red]
+                                   0                          -0 
+    54 continuityConstraint1[2,1,Green]
+                                  -1                          -0 
+    55 continuityConstraint1[2,1,Yellow]
+                                   0                          -0 
+    56 continuityConstraint1[2,1,Orange]
+                                   0                          -0 
+    57 continuityConstraint1[2,2,Blue]
+                                  -1                          -0 
+    58 continuityConstraint1[2,2,Red]
+                                  -1                          -0 
+    59 continuityConstraint1[2,2,Green]
+                                   0                          -0 
+    60 continuityConstraint1[2,2,Yellow]
+                                   0                          -0 
+    61 continuityConstraint1[2,2,Orange]
+                                   0                          -0 
+    62 continuityConstraint1[2,3,Blue]
+                                   1                           1 
+    63 continuityConstraint1[2,3,Red]
+                                   0                          -0 
+    64 continuityConstraint1[2,3,Green]
+                                  -2                          -0 
+    65 continuityConstraint1[2,3,Yellow]
+                                  -1                          -0 
+    66 continuityConstraint1[2,3,Orange]
+                                   0                          -0 
+    67 continuityConstraint1[2,4,Blue]
+                                  -1                          -0 
+    68 continuityConstraint1[2,4,Red]
+                                   0                          -0 
+    69 continuityConstraint1[2,4,Green]
+                                   0                          -0 
+    70 continuityConstraint1[2,4,Yellow]
+                                   0                          -0 
+    71 continuityConstraint1[2,4,Orange]
+                                  -1                          -0 
+    72 continuityConstraint1[2,5,Blue]
+                                   0                          -0 
+    73 continuityConstraint1[2,5,Red]
+                                   0                          -0 
+    74 continuityConstraint1[2,5,Green]
+                                   0                          -0 
+    75 continuityConstraint1[2,5,Yellow]
+                                  -2                          -0 
+    76 continuityConstraint1[2,5,Orange]
+                                   1                           1 
+    77 continuityConstraint1[3,1,Blue]
+                                   0                          -0 
+    78 continuityConstraint1[3,1,Red]
+                                   0                          -0 
+    79 continuityConstraint1[3,1,Green]
+                                  -1                          -0 
+    80 continuityConstraint1[3,1,Yellow]
+                                   0                          -0 
+    81 continuityConstraint1[3,1,Orange]
+                                   0                          -0 
+    82 continuityConstraint1[3,2,Blue]
+                                  -1                          -0 
+    83 continuityConstraint1[3,2,Red]
+                                  -1                          -0 
+    84 continuityConstraint1[3,2,Green]
+                                   0                          -0 
+    85 continuityConstraint1[3,2,Yellow]
+                                   0                          -0 
+    86 continuityConstraint1[3,2,Orange]
+                                   0                          -0 
+    87 continuityConstraint1[3,3,Blue]
+                                   0                          -0 
+    88 continuityConstraint1[3,3,Red]
+                                   0                          -0 
+    89 continuityConstraint1[3,3,Green]
+                                  -1                          -0 
+    90 continuityConstraint1[3,3,Yellow]
+                                  -1                          -0 
+    91 continuityConstraint1[3,3,Orange]
+                                   0                          -0 
+    92 continuityConstraint1[3,4,Blue]
+                                  -1                          -0 
+    93 continuityConstraint1[3,4,Red]
+                                   0                          -0 
+    94 continuityConstraint1[3,4,Green]
+                                   0                          -0 
+    95 continuityConstraint1[3,4,Yellow]
+                                   0                          -0 
+    96 continuityConstraint1[3,4,Orange]
+                                  -1                          -0 
+    97 continuityConstraint1[3,5,Blue]
+                                   0                          -0 
+    98 continuityConstraint1[3,5,Red]
+                                   0                          -0 
+    99 continuityConstraint1[3,5,Green]
+                                   0                          -0 
+   100 continuityConstraint1[3,5,Yellow]
+                                  -1                          -0 
+   101 continuityConstraint1[3,5,Orange]
+                                   0                          -0 
+   102 continuityConstraint1[4,1,Blue]
+                                   0                          -0 
+   103 continuityConstraint1[4,1,Red]
+                                   0                          -0 
+   104 continuityConstraint1[4,1,Green]
+                                  -1                          -0 
+   105 continuityConstraint1[4,1,Yellow]
+                                   0                          -0 
+   106 continuityConstraint1[4,1,Orange]
+                                   0                          -0 
+   107 continuityConstraint1[4,2,Blue]
+                                  -1                          -0 
+   108 continuityConstraint1[4,2,Red]
+                                  -2                          -0 
+   109 continuityConstraint1[4,2,Green]
+                                   1                           1 
+   110 continuityConstraint1[4,2,Yellow]
+                                   0                          -0 
+   111 continuityConstraint1[4,2,Orange]
+                                   0                          -0 
+   112 continuityConstraint1[4,3,Blue]
+                                   0                          -0 
+   113 continuityConstraint1[4,3,Red]
+                                   0                          -0 
+   114 continuityConstraint1[4,3,Green]
+                                  -1                          -0 
+   115 continuityConstraint1[4,3,Yellow]
+                                  -1                          -0 
+   116 continuityConstraint1[4,3,Orange]
+                                   0                          -0 
+   117 continuityConstraint1[4,4,Blue]
+                                  -1                          -0 
+   118 continuityConstraint1[4,4,Red]
+                                   0                          -0 
+   119 continuityConstraint1[4,4,Green]
+                                   0                          -0 
+   120 continuityConstraint1[4,4,Yellow]
+                                   1                           1 
+   121 continuityConstraint1[4,4,Orange]
+                                  -2                          -0 
+   122 continuityConstraint1[4,5,Blue]
+                                   0                          -0 
+   123 continuityConstraint1[4,5,Red]
+                                   0                          -0 
+   124 continuityConstraint1[4,5,Green]
+                                   0                          -0 
+   125 continuityConstraint1[4,5,Yellow]
+                                  -1                          -0 
+   126 continuityConstraint1[4,5,Orange]
+                                   0                          -0 
+   127 continuityConstraint1[5,1,Blue]
+                                   0                          -0 
+   128 continuityConstraint1[5,1,Red]
+                                   0                          -0 
+   129 continuityConstraint1[5,1,Green]
+                                   0                          -0 
+   130 continuityConstraint1[5,1,Yellow]
+                                   0                          -0 
+   131 continuityConstraint1[5,1,Orange]
+                                   0                          -0 
+   132 continuityConstraint1[5,2,Blue]
+                                  -1                          -0 
+   133 continuityConstraint1[5,2,Red]
+                                   1                           1 
+   134 continuityConstraint1[5,2,Green]
+                                  -1                          -0 
+   135 continuityConstraint1[5,2,Yellow]
+                                   0                          -0 
+   136 continuityConstraint1[5,2,Orange]
+                                   0                          -0 
+   137 continuityConstraint1[5,3,Blue]
+                                   1                           1 
+   138 continuityConstraint1[5,3,Red]
+                                  -1                          -0 
+   139 continuityConstraint1[5,3,Green]
+                                   0                          -0 
+   140 continuityConstraint1[5,3,Yellow]
+                                   0                          -0 
+   141 continuityConstraint1[5,3,Orange]
+                                  -1                          -0 
+   142 continuityConstraint1[5,4,Blue]
+                                  -1                          -0 
+   143 continuityConstraint1[5,4,Red]
+                                   0                          -0 
+   144 continuityConstraint1[5,4,Green]
+                                   0                          -0 
+   145 continuityConstraint1[5,4,Yellow]
+                                  -1                          -0 
+   146 continuityConstraint1[5,4,Orange]
+                                   1                           1 
+   147 continuityConstraint1[5,5,Blue]
+                                   0                          -0 
+   148 continuityConstraint1[5,5,Red]
+                                   0                          -0 
+   149 continuityConstraint1[5,5,Green]
+                                   0                          -0 
+   150 continuityConstraint1[5,5,Yellow]
+                                   0                          -0 
+   151 continuityConstraint1[5,5,Orange]
+                                   0                          -0 
+   152 continuityConstraint2[1,1,Blue]
+                                   0                           3 
+   153 continuityConstraint2[1,1,Red]
+                                   2                           3 
+   154 continuityConstraint2[1,1,Green]
+                                   1                           3 
+   155 continuityConstraint2[1,1,Yellow]
+                                   0                           3 
+   156 continuityConstraint2[1,1,Orange]
+                                   0                           3 
+   157 continuityConstraint2[1,2,Blue]
+                                   0                           3 
+   158 continuityConstraint2[1,2,Red]
+                                   1                           3 
+   159 continuityConstraint2[1,2,Green]
+                                   3                           3 
+   160 continuityConstraint2[1,2,Yellow]
+                                   0                           3 
+   161 continuityConstraint2[1,2,Orange]
+                                   0                           3 
+   162 continuityConstraint2[1,3,Blue]
+                                   1                           3 
+   163 continuityConstraint2[1,3,Red]
+                                   0                           3 
+   164 continuityConstraint2[1,3,Green]
+                                   2                           3 
+   165 continuityConstraint2[1,3,Yellow]
+                                   1                           3 
+   166 continuityConstraint2[1,3,Orange]
+                                   0                           3 
+   167 continuityConstraint2[1,4,Blue]
+                                   0                           3 
+   168 continuityConstraint2[1,4,Red]
+                                   0                           3 
+   169 continuityConstraint2[1,4,Green]
+                                   1                           3 
+   170 continuityConstraint2[1,4,Yellow]
+                                   3                           3 
+   171 continuityConstraint2[1,4,Orange]
+                                   0                           3 
+   172 continuityConstraint2[1,5,Blue]
+                                   0                           3 
+   173 continuityConstraint2[1,5,Red]
+                                   0                           3 
+   174 continuityConstraint2[1,5,Green]
+                                   0                           3 
+   175 continuityConstraint2[1,5,Yellow]
+                                   2                           3 
+   176 continuityConstraint2[1,5,Orange]
+                                   1                           3 
+   177 continuityConstraint2[2,1,Blue]
+                                   0                           3 
+   178 continuityConstraint2[2,1,Red]
+                                   3                           3 
+   179 continuityConstraint2[2,1,Green]
+                                   1                           3 
+   180 continuityConstraint2[2,1,Yellow]
+                                   0                           3 
+   181 continuityConstraint2[2,1,Orange]
+                                   0                           3 
+   182 continuityConstraint2[2,2,Blue]
+                                   1                           3 
+   183 continuityConstraint2[2,2,Red]
+                                   1                           3 
+   184 continuityConstraint2[2,2,Green]
+                                   3                           3 
+   185 continuityConstraint2[2,2,Yellow]
+                                   0                           3 
+   186 continuityConstraint2[2,2,Orange]
+                                   0                           3 
+   187 continuityConstraint2[2,3,Blue]
+                                   2                           3 
+   188 continuityConstraint2[2,3,Red]
+                                   0                           3 
+   189 continuityConstraint2[2,3,Green]
+                                   2                           3 
+   190 continuityConstraint2[2,3,Yellow]
+                                   1                           3 
+   191 continuityConstraint2[2,3,Orange]
+                                   0                           3 
+   192 continuityConstraint2[2,4,Blue]
+                                   1                           3 
+   193 continuityConstraint2[2,4,Red]
+                                   0                           3 
+   194 continuityConstraint2[2,4,Green]
+                                   0                           3 
+   195 continuityConstraint2[2,4,Yellow]
+                                   3                           3 
+   196 continuityConstraint2[2,4,Orange]
+                                   1                           3 
+   197 continuityConstraint2[2,5,Blue]
+                                   0                           3 
+   198 continuityConstraint2[2,5,Red]
+                                   0                           3 
+   199 continuityConstraint2[2,5,Green]
+                                   0                           3 
+   200 continuityConstraint2[2,5,Yellow]
+                                   2                           3 
+   201 continuityConstraint2[2,5,Orange]
+                                   2                           3 
+   202 continuityConstraint2[3,1,Blue]
+                                   0                           3 
+   203 continuityConstraint2[3,1,Red]
+                                   3                           3 
+   204 continuityConstraint2[3,1,Green]
+                                   1                           3 
+   205 continuityConstraint2[3,1,Yellow]
+                                   0                           3 
+   206 continuityConstraint2[3,1,Orange]
+                                   0                           3 
+   207 continuityConstraint2[3,2,Blue]
+                                   1                           3 
+   208 continuityConstraint2[3,2,Red]
+                                   1                           3 
+   209 continuityConstraint2[3,2,Green]
+                                   3                           3 
+   210 continuityConstraint2[3,2,Yellow]
+                                   0                           3 
+   211 continuityConstraint2[3,2,Orange]
+                                   0                           3 
+   212 continuityConstraint2[3,3,Blue]
+                                   3                           3 
+   213 continuityConstraint2[3,3,Red]
+                                   0                           3 
+   214 continuityConstraint2[3,3,Green]
+                                   1                           3 
+   215 continuityConstraint2[3,3,Yellow]
+                                   1                           3 
+   216 continuityConstraint2[3,3,Orange]
+                                   0                           3 
+   217 continuityConstraint2[3,4,Blue]
+                                   1                           3 
+   218 continuityConstraint2[3,4,Red]
+                                   0                           3 
+   219 continuityConstraint2[3,4,Green]
+                                   0                           3 
+   220 continuityConstraint2[3,4,Yellow]
+                                   3                           3 
+   221 continuityConstraint2[3,4,Orange]
+                                   1                           3 
+   222 continuityConstraint2[3,5,Blue]
+                                   0                           3 
+   223 continuityConstraint2[3,5,Red]
+                                   0                           3 
+   224 continuityConstraint2[3,5,Green]
+                                   0                           3 
+   225 continuityConstraint2[3,5,Yellow]
+                                   1                           3 
+   226 continuityConstraint2[3,5,Orange]
+                                   3                           3 
+   227 continuityConstraint2[4,1,Blue]
+                                   0                           3 
+   228 continuityConstraint2[4,1,Red]
+                                   3                           3 
+   229 continuityConstraint2[4,1,Green]
+                                   1                           3 
+   230 continuityConstraint2[4,1,Yellow]
+                                   0                           3 
+   231 continuityConstraint2[4,1,Orange]
+                                   0                           3 
+   232 continuityConstraint2[4,2,Blue]
+                                   1                           3 
+   233 continuityConstraint2[4,2,Red]
+                                   2                           3 
+   234 continuityConstraint2[4,2,Green]
+                                   2                           3 
+   235 continuityConstraint2[4,2,Yellow]
+                                   0                           3 
+   236 continuityConstraint2[4,2,Orange]
+                                   0                           3 
+   237 continuityConstraint2[4,3,Blue]
+                                   3                           3 
+   238 continuityConstraint2[4,3,Red]
+                                   0                           3 
+   239 continuityConstraint2[4,3,Green]
+                                   1                           3 
+   240 continuityConstraint2[4,3,Yellow]
+                                   1                           3 
+   241 continuityConstraint2[4,3,Orange]
+                                   0                           3 
+   242 continuityConstraint2[4,4,Blue]
+                                   1                           3 
+   243 continuityConstraint2[4,4,Red]
+                                   0                           3 
+   244 continuityConstraint2[4,4,Green]
+                                   0                           3 
+   245 continuityConstraint2[4,4,Yellow]
+                                   2                           3 
+   246 continuityConstraint2[4,4,Orange]
+                                   2                           3 
+   247 continuityConstraint2[4,5,Blue]
+                                   0                           3 
+   248 continuityConstraint2[4,5,Red]
+                                   0                           3 
+   249 continuityConstraint2[4,5,Green]
+                                   0                           3 
+   250 continuityConstraint2[4,5,Yellow]
+                                   1                           3 
+   251 continuityConstraint2[4,5,Orange]
+                                   3                           3 
+   252 continuityConstraint2[5,1,Blue]
+                                   0                           3 
+   253 continuityConstraint2[5,1,Red]
+                                   3                           3 
+   254 continuityConstraint2[5,1,Green]
+                                   0                           3 
+   255 continuityConstraint2[5,1,Yellow]
+                                   0                           3 
+   256 continuityConstraint2[5,1,Orange]
+                                   0                           3 
+   257 continuityConstraint2[5,2,Blue]
+                                   1                           3 
+   258 continuityConstraint2[5,2,Red]
+                                   2                           3 
+   259 continuityConstraint2[5,2,Green]
+                                   1                           3 
+   260 continuityConstraint2[5,2,Yellow]
+                                   0                           3 
+   261 continuityConstraint2[5,2,Orange]
+                                   0                           3 
+   262 continuityConstraint2[5,3,Blue]
+                                   2                           3 
+   263 continuityConstraint2[5,3,Red]
+                                   1                           3 
+   264 continuityConstraint2[5,3,Green]
+                                   0                           3 
+   265 continuityConstraint2[5,3,Yellow]
+                                   0                           3 
+   266 continuityConstraint2[5,3,Orange]
+                                   1                           3 
+   267 continuityConstraint2[5,4,Blue]
+                                   1                           3 
+   268 continuityConstraint2[5,4,Red]
+                                   0                           3 
+   269 continuityConstraint2[5,4,Green]
+                                   0                           3 
+   270 continuityConstraint2[5,4,Yellow]
+                                   1                           3 
+   271 continuityConstraint2[5,4,Orange]
+                                   2                           3 
+   272 continuityConstraint2[5,5,Blue]
+                                   0                           3 
+   273 continuityConstraint2[5,5,Red]
+                                   0                           3 
+   274 continuityConstraint2[5,5,Green]
+                                   0                           3 
+   275 continuityConstraint2[5,5,Yellow]
+                                   0                           3 
+   276 continuityConstraint2[5,5,Orange]
+                                   3                           3 
+   277 endpointConstraint1[1,1,Blue]
+                                   0            -0             = 
+   278 endpointConstraint1[1,1,Red]
+                                  -1            -1             = 
+   279 endpointConstraint1[1,1,Green]
+                                   0            -0             = 
+   280 endpointConstraint1[1,1,Yellow]
+                                   0            -0             = 
+   281 endpointConstraint1[1,1,Orange]
+                                   0            -0             = 
+   282 endpointConstraint1[1,2,Blue]
+                                   0            -0             = 
+   283 endpointConstraint1[1,2,Red]
+                                   0            -0             = 
+   284 endpointConstraint1[1,2,Green]
+                                   0            -0             = 
+   285 endpointConstraint1[1,2,Yellow]
+                                   0            -0             = 
+   286 endpointConstraint1[1,2,Orange]
+                                   0            -0             = 
+   287 endpointConstraint1[1,3,Blue]
+                                   0            -0             = 
+   288 endpointConstraint1[1,3,Red]
+                                   0            -0             = 
+   289 endpointConstraint1[1,3,Green]
+                                  -1            -1             = 
+   290 endpointConstraint1[1,3,Yellow]
+                                   0            -0             = 
+   291 endpointConstraint1[1,3,Orange]
+                                   0            -0             = 
+   292 endpointConstraint1[1,4,Blue]
+                                   0            -0             = 
+   293 endpointConstraint1[1,4,Red]
+                                   0            -0             = 
+   294 endpointConstraint1[1,4,Green]
+                                   0            -0             = 
+   295 endpointConstraint1[1,4,Yellow]
+                                   0            -0             = 
+   296 endpointConstraint1[1,4,Orange]
+                                   0            -0             = 
+   297 endpointConstraint1[1,5,Blue]
+                                   0            -0             = 
+   298 endpointConstraint1[1,5,Red]
+                                   0            -0             = 
+   299 endpointConstraint1[1,5,Green]
+                                   0            -0             = 
+   300 endpointConstraint1[1,5,Yellow]
+                                  -1            -1             = 
+   301 endpointConstraint1[1,5,Orange]
+                                   0            -0             = 
+   302 endpointConstraint1[2,1,Blue]
+                                   0            -0             = 
+   303 endpointConstraint1[2,1,Red]
+                                   0            -0             = 
+   304 endpointConstraint1[2,1,Green]
+                                   0            -0             = 
+   305 endpointConstraint1[2,1,Yellow]
+                                   0            -0             = 
+   306 endpointConstraint1[2,1,Orange]
+                                   0            -0             = 
+   307 endpointConstraint1[2,2,Blue]
+                                   0            -0             = 
+   308 endpointConstraint1[2,2,Red]
+                                   0            -0             = 
+   309 endpointConstraint1[2,2,Green]
+                                   0            -0             = 
+   310 endpointConstraint1[2,2,Yellow]
+                                   0            -0             = 
+   311 endpointConstraint1[2,2,Orange]
+                                   0            -0             = 
+   312 endpointConstraint1[2,3,Blue]
+                                  -1            -1             = 
+   313 endpointConstraint1[2,3,Red]
+                                   0            -0             = 
+   314 endpointConstraint1[2,3,Green]
+                                   0            -0             = 
+   315 endpointConstraint1[2,3,Yellow]
+                                   0            -0             = 
+   316 endpointConstraint1[2,3,Orange]
+                                   0            -0             = 
+   317 endpointConstraint1[2,4,Blue]
+                                   0            -0             = 
+   318 endpointConstraint1[2,4,Red]
+                                   0            -0             = 
+   319 endpointConstraint1[2,4,Green]
+                                   0            -0             = 
+   320 endpointConstraint1[2,4,Yellow]
+                                   0            -0             = 
+   321 endpointConstraint1[2,4,Orange]
+                                   0            -0             = 
+   322 endpointConstraint1[2,5,Blue]
+                                   0            -0             = 
+   323 endpointConstraint1[2,5,Red]
+                                   0            -0             = 
+   324 endpointConstraint1[2,5,Green]
+                                   0            -0             = 
+   325 endpointConstraint1[2,5,Yellow]
+                                   0            -0             = 
+   326 endpointConstraint1[2,5,Orange]
+                                  -1            -1             = 
+   327 endpointConstraint1[3,1,Blue]
+                                   0            -0             = 
+   328 endpointConstraint1[3,1,Red]
+                                   0            -0             = 
+   329 endpointConstraint1[3,1,Green]
+                                   0            -0             = 
+   330 endpointConstraint1[3,1,Yellow]
+                                   0            -0             = 
+   331 endpointConstraint1[3,1,Orange]
+                                   0            -0             = 
+   332 endpointConstraint1[3,2,Blue]
+                                   0            -0             = 
+   333 endpointConstraint1[3,2,Red]
+                                   0            -0             = 
+   334 endpointConstraint1[3,2,Green]
+                                   0            -0             = 
+   335 endpointConstraint1[3,2,Yellow]
+                                   0            -0             = 
+   336 endpointConstraint1[3,2,Orange]
+                                   0            -0             = 
+   337 endpointConstraint1[3,3,Blue]
+                                   0            -0             = 
+   338 endpointConstraint1[3,3,Red]
+                                   0            -0             = 
+   339 endpointConstraint1[3,3,Green]
+                                   0            -0             = 
+   340 endpointConstraint1[3,3,Yellow]
+                                   0            -0             = 
+   341 endpointConstraint1[3,3,Orange]
+                                   0            -0             = 
+   342 endpointConstraint1[3,4,Blue]
+                                   0            -0             = 
+   343 endpointConstraint1[3,4,Red]
+                                   0            -0             = 
+   344 endpointConstraint1[3,4,Green]
+                                   0            -0             = 
+   345 endpointConstraint1[3,4,Yellow]
+                                   0            -0             = 
+   346 endpointConstraint1[3,4,Orange]
+                                   0            -0             = 
+   347 endpointConstraint1[3,5,Blue]
+                                   0            -0             = 
+   348 endpointConstraint1[3,5,Red]
+                                   0            -0             = 
+   349 endpointConstraint1[3,5,Green]
+                                   0            -0             = 
+   350 endpointConstraint1[3,5,Yellow]
+                                   0            -0             = 
+   351 endpointConstraint1[3,5,Orange]
+                                   0            -0             = 
+   352 endpointConstraint1[4,1,Blue]
+                                   0            -0             = 
+   353 endpointConstraint1[4,1,Red]
+                                   0            -0             = 
+   354 endpointConstraint1[4,1,Green]
+                                   0            -0             = 
+   355 endpointConstraint1[4,1,Yellow]
+                                   0            -0             = 
+   356 endpointConstraint1[4,1,Orange]
+                                   0            -0             = 
+   357 endpointConstraint1[4,2,Blue]
+                                   0            -0             = 
+   358 endpointConstraint1[4,2,Red]
+                                   0            -0             = 
+   359 endpointConstraint1[4,2,Green]
+                                  -1            -1             = 
+   360 endpointConstraint1[4,2,Yellow]
+                                   0            -0             = 
+   361 endpointConstraint1[4,2,Orange]
+                                   0            -0             = 
+   362 endpointConstraint1[4,3,Blue]
+                                   0            -0             = 
+   363 endpointConstraint1[4,3,Red]
+                                   0            -0             = 
+   364 endpointConstraint1[4,3,Green]
+                                   0            -0             = 
+   365 endpointConstraint1[4,3,Yellow]
+                                   0            -0             = 
+   366 endpointConstraint1[4,3,Orange]
+                                   0            -0             = 
+   367 endpointConstraint1[4,4,Blue]
+                                   0            -0             = 
+   368 endpointConstraint1[4,4,Red]
+                                   0            -0             = 
+   369 endpointConstraint1[4,4,Green]
+                                   0            -0             = 
+   370 endpointConstraint1[4,4,Yellow]
+                                  -1            -1             = 
+   371 endpointConstraint1[4,4,Orange]
+                                   0            -0             = 
+   372 endpointConstraint1[4,5,Blue]
+                                   0            -0             = 
+   373 endpointConstraint1[4,5,Red]
+                                   0            -0             = 
+   374 endpointConstraint1[4,5,Green]
+                                   0            -0             = 
+   375 endpointConstraint1[4,5,Yellow]
+                                   0            -0             = 
+   376 endpointConstraint1[4,5,Orange]
+                                   0            -0             = 
+   377 endpointConstraint1[5,1,Blue]
+                                   0            -0             = 
+   378 endpointConstraint1[5,1,Red]
+                                   0            -0             = 
+   379 endpointConstraint1[5,1,Green]
+                                   0            -0             = 
+   380 endpointConstraint1[5,1,Yellow]
+                                   0            -0             = 
+   381 endpointConstraint1[5,1,Orange]
+                                   0            -0             = 
+   382 endpointConstraint1[5,2,Blue]
+                                   0            -0             = 
+   383 endpointConstraint1[5,2,Red]
+                                  -1            -1             = 
+   384 endpointConstraint1[5,2,Green]
+                                   0            -0             = 
+   385 endpointConstraint1[5,2,Yellow]
+                                   0            -0             = 
+   386 endpointConstraint1[5,2,Orange]
+                                   0            -0             = 
+   387 endpointConstraint1[5,3,Blue]
+                                  -1            -1             = 
+   388 endpointConstraint1[5,3,Red]
+                                   0            -0             = 
+   389 endpointConstraint1[5,3,Green]
+                                   0            -0             = 
+   390 endpointConstraint1[5,3,Yellow]
+                                   0            -0             = 
+   391 endpointConstraint1[5,3,Orange]
+                                   0            -0             = 
+   392 endpointConstraint1[5,4,Blue]
+                                   0            -0             = 
+   393 endpointConstraint1[5,4,Red]
+                                   0            -0             = 
+   394 endpointConstraint1[5,4,Green]
+                                   0            -0             = 
+   395 endpointConstraint1[5,4,Yellow]
+                                   0            -0             = 
+   396 endpointConstraint1[5,4,Orange]
+                                  -1            -1             = 
+   397 endpointConstraint1[5,5,Blue]
+                                   0            -0             = 
+   398 endpointConstraint1[5,5,Red]
+                                   0            -0             = 
+   399 endpointConstraint1[5,5,Green]
+                                   0            -0             = 
+   400 endpointConstraint1[5,5,Yellow]
+                                   0            -0             = 
+   401 endpointConstraint1[5,5,Orange]
+                                   0            -0             = 
+   402 endpointConstraint2[1,1,Blue]
+                                   0            -0               
+   403 endpointConstraint2[1,1,Red]
+                                   1             1               
+   404 endpointConstraint2[1,1,Green]
+                                   0            -0               
+   405 endpointConstraint2[1,1,Yellow]
+                                   0            -0               
+   406 endpointConstraint2[1,1,Orange]
+                                   0            -0               
+   407 endpointConstraint2[1,2,Blue]
+                                   0            -0               
+   408 endpointConstraint2[1,2,Red]
+                                   0            -0               
+   409 endpointConstraint2[1,2,Green]
+                                   1            -0               
+   410 endpointConstraint2[1,2,Yellow]
+                                   0            -0               
+   411 endpointConstraint2[1,2,Orange]
+                                   0            -0               
+   412 endpointConstraint2[1,3,Blue]
+                                   0            -0               
+   413 endpointConstraint2[1,3,Red]
+                                   0            -0               
+   414 endpointConstraint2[1,3,Green]
+                                   1             1               
+   415 endpointConstraint2[1,3,Yellow]
+                                   0            -0               
+   416 endpointConstraint2[1,3,Orange]
+                                   0            -0               
+   417 endpointConstraint2[1,4,Blue]
+                                   0            -0               
+   418 endpointConstraint2[1,4,Red]
+                                   0            -0               
+   419 endpointConstraint2[1,4,Green]
+                                   0            -0               
+   420 endpointConstraint2[1,4,Yellow]
+                                   1            -0               
+   421 endpointConstraint2[1,4,Orange]
+                                   0            -0               
+   422 endpointConstraint2[1,5,Blue]
+                                   0            -0               
+   423 endpointConstraint2[1,5,Red]
+                                   0            -0               
+   424 endpointConstraint2[1,5,Green]
+                                   0            -0               
+   425 endpointConstraint2[1,5,Yellow]
+                                   1             1               
+   426 endpointConstraint2[1,5,Orange]
+                                   0            -0               
+   427 endpointConstraint2[2,1,Blue]
+                                   0            -0               
+   428 endpointConstraint2[2,1,Red]
+                                   1            -0               
+   429 endpointConstraint2[2,1,Green]
+                                   0            -0               
+   430 endpointConstraint2[2,1,Yellow]
+                                   0            -0               
+   431 endpointConstraint2[2,1,Orange]
+                                   0            -0               
+   432 endpointConstraint2[2,2,Blue]
+                                   0            -0               
+   433 endpointConstraint2[2,2,Red]
+                                   0            -0               
+   434 endpointConstraint2[2,2,Green]
+                                   1            -0               
+   435 endpointConstraint2[2,2,Yellow]
+                                   0            -0               
+   436 endpointConstraint2[2,2,Orange]
+                                   0            -0               
+   437 endpointConstraint2[2,3,Blue]
+                                   1             1               
+   438 endpointConstraint2[2,3,Red]
+                                   0            -0               
+   439 endpointConstraint2[2,3,Green]
+                                   0            -0               
+   440 endpointConstraint2[2,3,Yellow]
+                                   0            -0               
+   441 endpointConstraint2[2,3,Orange]
+                                   0            -0               
+   442 endpointConstraint2[2,4,Blue]
+                                   0            -0               
+   443 endpointConstraint2[2,4,Red]
+                                   0            -0               
+   444 endpointConstraint2[2,4,Green]
+                                   0            -0               
+   445 endpointConstraint2[2,4,Yellow]
+                                   1            -0               
+   446 endpointConstraint2[2,4,Orange]
+                                   0            -0               
+   447 endpointConstraint2[2,5,Blue]
+                                   0            -0               
+   448 endpointConstraint2[2,5,Red]
+                                   0            -0               
+   449 endpointConstraint2[2,5,Green]
+                                   0            -0               
+   450 endpointConstraint2[2,5,Yellow]
+                                   0            -0               
+   451 endpointConstraint2[2,5,Orange]
+                                   1             1               
+   452 endpointConstraint2[3,1,Blue]
+                                   0            -0               
+   453 endpointConstraint2[3,1,Red]
+                                   1            -0               
+   454 endpointConstraint2[3,1,Green]
+                                   0            -0               
+   455 endpointConstraint2[3,1,Yellow]
+                                   0            -0               
+   456 endpointConstraint2[3,1,Orange]
+                                   0            -0               
+   457 endpointConstraint2[3,2,Blue]
+                                   0            -0               
+   458 endpointConstraint2[3,2,Red]
+                                   0            -0               
+   459 endpointConstraint2[3,2,Green]
+                                   1            -0               
+   460 endpointConstraint2[3,2,Yellow]
+                                   0            -0               
+   461 endpointConstraint2[3,2,Orange]
+                                   0            -0               
+   462 endpointConstraint2[3,3,Blue]
+                                   1            -0               
+   463 endpointConstraint2[3,3,Red]
+                                   0            -0               
+   464 endpointConstraint2[3,3,Green]
+                                   0            -0               
+   465 endpointConstraint2[3,3,Yellow]
+                                   0            -0               
+   466 endpointConstraint2[3,3,Orange]
+                                   0            -0               
+   467 endpointConstraint2[3,4,Blue]
+                                   0            -0               
+   468 endpointConstraint2[3,4,Red]
+                                   0            -0               
+   469 endpointConstraint2[3,4,Green]
+                                   0            -0               
+   470 endpointConstraint2[3,4,Yellow]
+                                   1            -0               
+   471 endpointConstraint2[3,4,Orange]
+                                   0            -0               
+   472 endpointConstraint2[3,5,Blue]
+                                   0            -0               
+   473 endpointConstraint2[3,5,Red]
+                                   0            -0               
+   474 endpointConstraint2[3,5,Green]
+                                   0            -0               
+   475 endpointConstraint2[3,5,Yellow]
+                                   0            -0               
+   476 endpointConstraint2[3,5,Orange]
+                                   1            -0               
+   477 endpointConstraint2[4,1,Blue]
+                                   0            -0               
+   478 endpointConstraint2[4,1,Red]
+                                   1            -0               
+   479 endpointConstraint2[4,1,Green]
+                                   0            -0               
+   480 endpointConstraint2[4,1,Yellow]
+                                   0            -0               
+   481 endpointConstraint2[4,1,Orange]
+                                   0            -0               
+   482 endpointConstraint2[4,2,Blue]
+                                   0            -0               
+   483 endpointConstraint2[4,2,Red]
+                                   0            -0               
+   484 endpointConstraint2[4,2,Green]
+                                   1             1               
+   485 endpointConstraint2[4,2,Yellow]
+                                   0            -0               
+   486 endpointConstraint2[4,2,Orange]
+                                   0            -0               
+   487 endpointConstraint2[4,3,Blue]
+                                   1            -0               
+   488 endpointConstraint2[4,3,Red]
+                                   0            -0               
+   489 endpointConstraint2[4,3,Green]
+                                   0            -0               
+   490 endpointConstraint2[4,3,Yellow]
+                                   0            -0               
+   491 endpointConstraint2[4,3,Orange]
+                                   0            -0               
+   492 endpointConstraint2[4,4,Blue]
+                                   0            -0               
+   493 endpointConstraint2[4,4,Red]
+                                   0            -0               
+   494 endpointConstraint2[4,4,Green]
+                                   0            -0               
+   495 endpointConstraint2[4,4,Yellow]
+                                   1             1               
+   496 endpointConstraint2[4,4,Orange]
+                                   0            -0               
+   497 endpointConstraint2[4,5,Blue]
+                                   0            -0               
+   498 endpointConstraint2[4,5,Red]
+                                   0            -0               
+   499 endpointConstraint2[4,5,Green]
+                                   0            -0               
+   500 endpointConstraint2[4,5,Yellow]
+                                   0            -0               
+   501 endpointConstraint2[4,5,Orange]
+                                   1            -0               
+   502 endpointConstraint2[5,1,Blue]
+                                   0            -0               
+   503 endpointConstraint2[5,1,Red]
+                                   1            -0               
+   504 endpointConstraint2[5,1,Green]
+                                   0            -0               
+   505 endpointConstraint2[5,1,Yellow]
+                                   0            -0               
+   506 endpointConstraint2[5,1,Orange]
+                                   0            -0               
+   507 endpointConstraint2[5,2,Blue]
+                                   0            -0               
+   508 endpointConstraint2[5,2,Red]
+                                   1             1               
+   509 endpointConstraint2[5,2,Green]
+                                   0            -0               
+   510 endpointConstraint2[5,2,Yellow]
+                                   0            -0               
+   511 endpointConstraint2[5,2,Orange]
+                                   0            -0               
+   512 endpointConstraint2[5,3,Blue]
+                                   1             1               
+   513 endpointConstraint2[5,3,Red]
+                                   0            -0               
+   514 endpointConstraint2[5,3,Green]
+                                   0            -0               
+   515 endpointConstraint2[5,3,Yellow]
+                                   0            -0               
+   516 endpointConstraint2[5,3,Orange]
+                                   0            -0               
+   517 endpointConstraint2[5,4,Blue]
+                                   0            -0               
+   518 endpointConstraint2[5,4,Red]
+                                   0            -0               
+   519 endpointConstraint2[5,4,Green]
+                                   0            -0               
+   520 endpointConstraint2[5,4,Yellow]
+                                   0            -0               
+   521 endpointConstraint2[5,4,Orange]
+                                   1             1               
+   522 endpointConstraint2[5,5,Blue]
+                                   0            -0               
+   523 endpointConstraint2[5,5,Red]
+                                   0            -0               
+   524 endpointConstraint2[5,5,Green]
+                                   0            -0               
+   525 endpointConstraint2[5,5,Yellow]
+                                   0            -0               
+   526 endpointConstraint2[5,5,Orange]
+                                   1            -0               
+   527 outOfBounds1[1,0,Blue]
+                                   0            -0             = 
+   528 outOfBounds1[1,0,Red]
+                                   0            -0             = 
+   529 outOfBounds1[1,0,Green]
+                                   0            -0             = 
+   530 outOfBounds1[1,0,Yellow]
+                                   0            -0             = 
+   531 outOfBounds1[1,0,Orange]
+                                   0            -0             = 
+   532 outOfBounds1[1,6,Blue]
+                                   0            -0             = 
+   533 outOfBounds1[1,6,Red]
+                                   0            -0             = 
+   534 outOfBounds1[1,6,Green]
+                                   0            -0             = 
+   535 outOfBounds1[1,6,Yellow]
+                                   0            -0             = 
+   536 outOfBounds1[1,6,Orange]
+                                   0            -0             = 
+   537 outOfBounds1[2,0,Blue]
+                                   0            -0             = 
+   538 outOfBounds1[2,0,Red]
+                                   0            -0             = 
+   539 outOfBounds1[2,0,Green]
+                                   0            -0             = 
+   540 outOfBounds1[2,0,Yellow]
+                                   0            -0             = 
+   541 outOfBounds1[2,0,Orange]
+                                   0            -0             = 
+   542 outOfBounds1[2,6,Blue]
+                                   0            -0             = 
+   543 outOfBounds1[2,6,Red]
+                                   0            -0             = 
+   544 outOfBounds1[2,6,Green]
+                                   0            -0             = 
+   545 outOfBounds1[2,6,Yellow]
+                                   0            -0             = 
+   546 outOfBounds1[2,6,Orange]
+                                   0            -0             = 
+   547 outOfBounds1[3,0,Blue]
+                                   0            -0             = 
+   548 outOfBounds1[3,0,Red]
+                                   0            -0             = 
+   549 outOfBounds1[3,0,Green]
+                                   0            -0             = 
+   550 outOfBounds1[3,0,Yellow]
+                                   0            -0             = 
+   551 outOfBounds1[3,0,Orange]
+                                   0            -0             = 
+   552 outOfBounds1[3,6,Blue]
+                                   0            -0             = 
+   553 outOfBounds1[3,6,Red]
+                                   0            -0             = 
+   554 outOfBounds1[3,6,Green]
+                                   0            -0             = 
+   555 outOfBounds1[3,6,Yellow]
+                                   0            -0             = 
+   556 outOfBounds1[3,6,Orange]
+                                   0            -0             = 
+   557 outOfBounds1[4,0,Blue]
+                                   0            -0             = 
+   558 outOfBounds1[4,0,Red]
+                                   0            -0             = 
+   559 outOfBounds1[4,0,Green]
+                                   0            -0             = 
+   560 outOfBounds1[4,0,Yellow]
+                                   0            -0             = 
+   561 outOfBounds1[4,0,Orange]
+                                   0            -0             = 
+   562 outOfBounds1[4,6,Blue]
+                                   0            -0             = 
+   563 outOfBounds1[4,6,Red]
+                                   0            -0             = 
+   564 outOfBounds1[4,6,Green]
+                                   0            -0             = 
+   565 outOfBounds1[4,6,Yellow]
+                                   0            -0             = 
+   566 outOfBounds1[4,6,Orange]
+                                   0            -0             = 
+   567 outOfBounds1[5,0,Blue]
+                                   0            -0             = 
+   568 outOfBounds1[5,0,Red]
+                                   0            -0             = 
+   569 outOfBounds1[5,0,Green]
+                                   0            -0             = 
+   570 outOfBounds1[5,0,Yellow]
+                                   0            -0             = 
+   571 outOfBounds1[5,0,Orange]
+                                   0            -0             = 
+   572 outOfBounds1[5,6,Blue]
+                                   0            -0             = 
+   573 outOfBounds1[5,6,Red]
+                                   0            -0             = 
+   574 outOfBounds1[5,6,Green]
+                                   0            -0             = 
+   575 outOfBounds1[5,6,Yellow]
+                                   0            -0             = 
+   576 outOfBounds1[5,6,Orange]
+                                   0            -0             = 
+   577 outOfBounds2[0,1,Blue]
+                                   0            -0             = 
+   578 outOfBounds2[0,1,Red]
+                                   0            -0             = 
+   579 outOfBounds2[0,1,Green]
+                                   0            -0             = 
+   580 outOfBounds2[0,1,Yellow]
+                                   0            -0             = 
+   581 outOfBounds2[0,1,Orange]
+                                   0            -0             = 
+   582 outOfBounds2[0,2,Blue]
+                                   0            -0             = 
+   583 outOfBounds2[0,2,Red]
+                                   0            -0             = 
+   584 outOfBounds2[0,2,Green]
+                                   0            -0             = 
+   585 outOfBounds2[0,2,Yellow]
+                                   0            -0             = 
+   586 outOfBounds2[0,2,Orange]
+                                   0            -0             = 
+   587 outOfBounds2[0,3,Blue]
+                                   0            -0             = 
+   588 outOfBounds2[0,3,Red]
+                                   0            -0             = 
+   589 outOfBounds2[0,3,Green]
+                                   0            -0             = 
+   590 outOfBounds2[0,3,Yellow]
+                                   0            -0             = 
+   591 outOfBounds2[0,3,Orange]
+                                   0            -0             = 
+   592 outOfBounds2[0,4,Blue]
+                                   0            -0             = 
+   593 outOfBounds2[0,4,Red]
+                                   0            -0             = 
+   594 outOfBounds2[0,4,Green]
+                                   0            -0             = 
+   595 outOfBounds2[0,4,Yellow]
+                                   0            -0             = 
+   596 outOfBounds2[0,4,Orange]
+                                   0            -0             = 
+   597 outOfBounds2[0,5,Blue]
+                                   0            -0             = 
+   598 outOfBounds2[0,5,Red]
+                                   0            -0             = 
+   599 outOfBounds2[0,5,Green]
+                                   0            -0             = 
+   600 outOfBounds2[0,5,Yellow]
+                                   0            -0             = 
+   601 outOfBounds2[0,5,Orange]
+                                   0            -0             = 
+   602 outOfBounds2[6,1,Blue]
+                                   0            -0             = 
+   603 outOfBounds2[6,1,Red]
+                                   0            -0             = 
+   604 outOfBounds2[6,1,Green]
+                                   0            -0             = 
+   605 outOfBounds2[6,1,Yellow]
+                                   0            -0             = 
+   606 outOfBounds2[6,1,Orange]
+                                   0            -0             = 
+   607 outOfBounds2[6,2,Blue]
+                                   0            -0             = 
+   608 outOfBounds2[6,2,Red]
+                                   0            -0             = 
+   609 outOfBounds2[6,2,Green]
+                                   0            -0             = 
+   610 outOfBounds2[6,2,Yellow]
+                                   0            -0             = 
+   611 outOfBounds2[6,2,Orange]
+                                   0            -0             = 
+   612 outOfBounds2[6,3,Blue]
+                                   0            -0             = 
+   613 outOfBounds2[6,3,Red]
+                                   0            -0             = 
+   614 outOfBounds2[6,3,Green]
+                                   0            -0             = 
+   615 outOfBounds2[6,3,Yellow]
+                                   0            -0             = 
+   616 outOfBounds2[6,3,Orange]
+                                   0            -0             = 
+   617 outOfBounds2[6,4,Blue]
+                                   0            -0             = 
+   618 outOfBounds2[6,4,Red]
+                                   0            -0             = 
+   619 outOfBounds2[6,4,Green]
+                                   0            -0             = 
+   620 outOfBounds2[6,4,Yellow]
+                                   0            -0             = 
+   621 outOfBounds2[6,4,Orange]
+                                   0            -0             = 
+   622 outOfBounds2[6,5,Blue]
+                                   0            -0             = 
+   623 outOfBounds2[6,5,Red]
+                                   0            -0             = 
+   624 outOfBounds2[6,5,Green]
+                                   0            -0             = 
+   625 outOfBounds2[6,5,Yellow]
+                                   0            -0             = 
+   626 outOfBounds2[6,5,Orange]
+                                   0            -0             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1,1,Blue]  *              0             0             1 
+     2 x[1,1,Red]   *              1             0             1 
+     3 x[1,1,Green] *              0             0             1 
+     4 x[1,1,Yellow]
+                    *              0             0             1 
+     5 x[1,1,Orange]
+                    *              0             0             1 
+     6 x[1,2,Blue]  *              0             0             1 
+     7 x[1,2,Red]   *              0             0             1 
+     8 x[1,2,Green] *              1             0             1 
+     9 x[1,2,Yellow]
+                    *              0             0             1 
+    10 x[1,2,Orange]
+                    *              0             0             1 
+    11 x[1,3,Blue]  *              0             0             1 
+    12 x[1,3,Red]   *              0             0             1 
+    13 x[1,3,Green] *              1             0             1 
+    14 x[1,3,Yellow]
+                    *              0             0             1 
+    15 x[1,3,Orange]
+                    *              0             0             1 
+    16 x[1,4,Blue]  *              0             0             1 
+    17 x[1,4,Red]   *              0             0             1 
+    18 x[1,4,Green] *              0             0             1 
+    19 x[1,4,Yellow]
+                    *              1             0             1 
+    20 x[1,4,Orange]
+                    *              0             0             1 
+    21 x[1,5,Blue]  *              0             0             1 
+    22 x[1,5,Red]   *              0             0             1 
+    23 x[1,5,Green] *              0             0             1 
+    24 x[1,5,Yellow]
+                    *              1             0             1 
+    25 x[1,5,Orange]
+                    *              0             0             1 
+    26 x[2,1,Blue]  *              0             0             1 
+    27 x[2,1,Red]   *              1             0             1 
+    28 x[2,1,Green] *              0             0             1 
+    29 x[2,1,Yellow]
+                    *              0             0             1 
+    30 x[2,1,Orange]
+                    *              0             0             1 
+    31 x[2,2,Blue]  *              0             0             1 
+    32 x[2,2,Red]   *              0             0             1 
+    33 x[2,2,Green] *              1             0             1 
+    34 x[2,2,Yellow]
+                    *              0             0             1 
+    35 x[2,2,Orange]
+                    *              0             0             1 
+    36 x[2,3,Blue]  *              1             0             1 
+    37 x[2,3,Red]   *              0             0             1 
+    38 x[2,3,Green] *              0             0             1 
+    39 x[2,3,Yellow]
+                    *              0             0             1 
+    40 x[2,3,Orange]
+                    *              0             0             1 
+    41 x[2,4,Blue]  *              0             0             1 
+    42 x[2,4,Red]   *              0             0             1 
+    43 x[2,4,Green] *              0             0             1 
+    44 x[2,4,Yellow]
+                    *              1             0             1 
+    45 x[2,4,Orange]
+                    *              0             0             1 
+    46 x[2,5,Blue]  *              0             0             1 
+    47 x[2,5,Red]   *              0             0             1 
+    48 x[2,5,Green] *              0             0             1 
+    49 x[2,5,Yellow]
+                    *              0             0             1 
+    50 x[2,5,Orange]
+                    *              1             0             1 
+    51 x[3,1,Blue]  *              0             0             1 
+    52 x[3,1,Red]   *              1             0             1 
+    53 x[3,1,Green] *              0             0             1 
+    54 x[3,1,Yellow]
+                    *              0             0             1 
+    55 x[3,1,Orange]
+                    *              0             0             1 
+    56 x[3,2,Blue]  *              0             0             1 
+    57 x[3,2,Red]   *              0             0             1 
+    58 x[3,2,Green] *              1             0             1 
+    59 x[3,2,Yellow]
+                    *              0             0             1 
+    60 x[3,2,Orange]
+                    *              0             0             1 
+    61 x[3,3,Blue]  *              1             0             1 
+    62 x[3,3,Red]   *              0             0             1 
+    63 x[3,3,Green] *              0             0             1 
+    64 x[3,3,Yellow]
+                    *              0             0             1 
+    65 x[3,3,Orange]
+                    *              0             0             1 
+    66 x[3,4,Blue]  *              0             0             1 
+    67 x[3,4,Red]   *              0             0             1 
+    68 x[3,4,Green] *              0             0             1 
+    69 x[3,4,Yellow]
+                    *              1             0             1 
+    70 x[3,4,Orange]
+                    *              0             0             1 
+    71 x[3,5,Blue]  *              0             0             1 
+    72 x[3,5,Red]   *              0             0             1 
+    73 x[3,5,Green] *              0             0             1 
+    74 x[3,5,Yellow]
+                    *              0             0             1 
+    75 x[3,5,Orange]
+                    *              1             0             1 
+    76 x[4,1,Blue]  *              0             0             1 
+    77 x[4,1,Red]   *              1             0             1 
+    78 x[4,1,Green] *              0             0             1 
+    79 x[4,1,Yellow]
+                    *              0             0             1 
+    80 x[4,1,Orange]
+                    *              0             0             1 
+    81 x[4,2,Blue]  *              0             0             1 
+    82 x[4,2,Red]   *              0             0             1 
+    83 x[4,2,Green] *              1             0             1 
+    84 x[4,2,Yellow]
+                    *              0             0             1 
+    85 x[4,2,Orange]
+                    *              0             0             1 
+    86 x[4,3,Blue]  *              1             0             1 
+    87 x[4,3,Red]   *              0             0             1 
+    88 x[4,3,Green] *              0             0             1 
+    89 x[4,3,Yellow]
+                    *              0             0             1 
+    90 x[4,3,Orange]
+                    *              0             0             1 
+    91 x[4,4,Blue]  *              0             0             1 
+    92 x[4,4,Red]   *              0             0             1 
+    93 x[4,4,Green] *              0             0             1 
+    94 x[4,4,Yellow]
+                    *              1             0             1 
+    95 x[4,4,Orange]
+                    *              0             0             1 
+    96 x[4,5,Blue]  *              0             0             1 
+    97 x[4,5,Red]   *              0             0             1 
+    98 x[4,5,Green] *              0             0             1 
+    99 x[4,5,Yellow]
+                    *              0             0             1 
+   100 x[4,5,Orange]
+                    *              1             0             1 
+   101 x[5,1,Blue]  *              0             0             1 
+   102 x[5,1,Red]   *              1             0             1 
+   103 x[5,1,Green] *              0             0             1 
+   104 x[5,1,Yellow]
+                    *              0             0             1 
+   105 x[5,1,Orange]
+                    *              0             0             1 
+   106 x[5,2,Blue]  *              0             0             1 
+   107 x[5,2,Red]   *              1             0             1 
+   108 x[5,2,Green] *              0             0             1 
+   109 x[5,2,Yellow]
+                    *              0             0             1 
+   110 x[5,2,Orange]
+                    *              0             0             1 
+   111 x[5,3,Blue]  *              1             0             1 
+   112 x[5,3,Red]   *              0             0             1 
+   113 x[5,3,Green] *              0             0             1 
+   114 x[5,3,Yellow]
+                    *              0             0             1 
+   115 x[5,3,Orange]
+                    *              0             0             1 
+   116 x[5,4,Blue]  *              0             0             1 
+   117 x[5,4,Red]   *              0             0             1 
+   118 x[5,4,Green] *              0             0             1 
+   119 x[5,4,Yellow]
+                    *              0             0             1 
+   120 x[5,4,Orange]
+                    *              1             0             1 
+   121 x[5,5,Blue]  *              0             0             1 
+   122 x[5,5,Red]   *              0             0             1 
+   123 x[5,5,Green] *              0             0             1 
+   124 x[5,5,Yellow]
+                    *              0             0             1 
+   125 x[5,5,Orange]
+                    *              1             0             1 
+   126 x[0,1,Blue]  *              0             0             1 
+   127 x[1,0,Blue]  *              0             0             1 
+   128 x[0,1,Red]   *              0             0             1 
+   129 x[1,0,Red]   *              0             0             1 
+   130 x[0,1,Green] *              0             0             1 
+   131 x[1,0,Green] *              0             0             1 
+   132 x[0,1,Yellow]
+                    *              0             0             1 
+   133 x[1,0,Yellow]
+                    *              0             0             1 
+   134 x[0,1,Orange]
+                    *              0             0             1 
+   135 x[1,0,Orange]
+                    *              0             0             1 
+   136 x[0,2,Blue]  *              0             0             1 
+   137 x[0,2,Red]   *              0             0             1 
+   138 x[0,2,Green] *              0             0             1 
+   139 x[0,2,Yellow]
+                    *              0             0             1 
+   140 x[0,2,Orange]
+                    *              0             0             1 
+   141 x[0,3,Blue]  *              0             0             1 
+   142 x[0,3,Red]   *              0             0             1 
+   143 x[0,3,Green] *              0             0             1 
+   144 x[0,3,Yellow]
+                    *              0             0             1 
+   145 x[0,3,Orange]
+                    *              0             0             1 
+   146 x[0,4,Blue]  *              0             0             1 
+   147 x[0,4,Red]   *              0             0             1 
+   148 x[0,4,Green] *              0             0             1 
+   149 x[0,4,Yellow]
+                    *              0             0             1 
+   150 x[0,4,Orange]
+                    *              0             0             1 
+   151 x[0,5,Blue]  *              0             0             1 
+   152 x[1,6,Blue]  *              0             0             1 
+   153 x[0,5,Red]   *              0             0             1 
+   154 x[1,6,Red]   *              0             0             1 
+   155 x[0,5,Green] *              0             0             1 
+   156 x[1,6,Green] *              0             0             1 
+   157 x[0,5,Yellow]
+                    *              0             0             1 
+   158 x[1,6,Yellow]
+                    *              0             0             1 
+   159 x[0,5,Orange]
+                    *              0             0             1 
+   160 x[1,6,Orange]
+                    *              0             0             1 
+   161 x[2,0,Blue]  *              0             0             1 
+   162 x[2,0,Red]   *              0             0             1 
+   163 x[2,0,Green] *              0             0             1 
+   164 x[2,0,Yellow]
+                    *              0             0             1 
+   165 x[2,0,Orange]
+                    *              0             0             1 
+   166 x[2,6,Blue]  *              0             0             1 
+   167 x[2,6,Red]   *              0             0             1 
+   168 x[2,6,Green] *              0             0             1 
+   169 x[2,6,Yellow]
+                    *              0             0             1 
+   170 x[2,6,Orange]
+                    *              0             0             1 
+   171 x[3,0,Blue]  *              0             0             1 
+   172 x[3,0,Red]   *              0             0             1 
+   173 x[3,0,Green] *              0             0             1 
+   174 x[3,0,Yellow]
+                    *              0             0             1 
+   175 x[3,0,Orange]
+                    *              0             0             1 
+   176 x[3,6,Blue]  *              0             0             1 
+   177 x[3,6,Red]   *              0             0             1 
+   178 x[3,6,Green] *              0             0             1 
+   179 x[3,6,Yellow]
+                    *              0             0             1 
+   180 x[3,6,Orange]
+                    *              0             0             1 
+   181 x[4,0,Blue]  *              0             0             1 
+   182 x[4,0,Red]   *              0             0             1 
+   183 x[4,0,Green] *              0             0             1 
+   184 x[4,0,Yellow]
+                    *              0             0             1 
+   185 x[4,0,Orange]
+                    *              0             0             1 
+   186 x[4,6,Blue]  *              0             0             1 
+   187 x[4,6,Red]   *              0             0             1 
+   188 x[4,6,Green] *              0             0             1 
+   189 x[4,6,Yellow]
+                    *              0             0             1 
+   190 x[4,6,Orange]
+                    *              0             0             1 
+   191 x[6,1,Blue]  *              0             0             1 
+   192 x[5,0,Blue]  *              0             0             1 
+   193 x[6,1,Red]   *              0             0             1 
+   194 x[5,0,Red]   *              0             0             1 
+   195 x[6,1,Green] *              0             0             1 
+   196 x[5,0,Green] *              0             0             1 
+   197 x[6,1,Yellow]
+                    *              0             0             1 
+   198 x[5,0,Yellow]
+                    *              0             0             1 
+   199 x[6,1,Orange]
+                    *              0             0             1 
+   200 x[5,0,Orange]
+                    *              0             0             1 
+   201 x[6,2,Blue]  *              0             0             1 
+   202 x[6,2,Red]   *              0             0             1 
+   203 x[6,2,Green] *              0             0             1 
+   204 x[6,2,Yellow]
+                    *              0             0             1 
+   205 x[6,2,Orange]
+                    *              0             0             1 
+   206 x[6,3,Blue]  *              0             0             1 
+   207 x[6,3,Red]   *              0             0             1 
+   208 x[6,3,Green] *              0             0             1 
+   209 x[6,3,Yellow]
+                    *              0             0             1 
+   210 x[6,3,Orange]
+                    *              0             0             1 
+   211 x[6,4,Blue]  *              0             0             1 
+   212 x[6,4,Red]   *              0             0             1 
+   213 x[6,4,Green] *              0             0             1 
+   214 x[6,4,Yellow]
+                    *              0             0             1 
+   215 x[6,4,Orange]
+                    *              0             0             1 
+   216 x[6,5,Blue]  *              0             0             1 
+   217 x[5,6,Blue]  *              0             0             1 
+   218 x[6,5,Red]   *              0             0             1 
+   219 x[5,6,Red]   *              0             0             1 
+   220 x[6,5,Green] *              0             0             1 
+   221 x[5,6,Green] *              0             0             1 
+   222 x[6,5,Yellow]
+                    *              0             0             1 
+   223 x[5,6,Yellow]
+                    *              0             0             1 
+   224 x[6,5,Orange]
+                    *              0             0             1 
+   225 x[5,6,Orange]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

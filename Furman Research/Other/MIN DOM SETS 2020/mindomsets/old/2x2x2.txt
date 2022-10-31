@@ -1,0 +1,121 @@
+Problem:    GLPKdomSets
+Rows:       33
+Columns:    32 (32 integer, 32 binary)
+Non-zeros:  88
+Status:     INTEGER OPTIMAL
+Objective:  objective = 2 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 objective                   2                             
+     2 constraint1[0,1,1]
+                                   0            -0             = 
+     3 constraint1[0,1,2]
+                                   0            -0             = 
+     4 constraint1[0,2,1]
+                                   0            -0             = 
+     5 constraint1[0,2,2]
+                                   0            -0             = 
+     6 constraint1[3,1,1]
+                                   0            -0             = 
+     7 constraint1[3,1,2]
+                                   0            -0             = 
+     8 constraint1[3,2,1]
+                                   0            -0             = 
+     9 constraint1[3,2,2]
+                                   0            -0             = 
+    10 constraint2[1,0,1]
+                                   0            -0             = 
+    11 constraint2[1,0,2]
+                                   0            -0             = 
+    12 constraint2[1,3,1]
+                                   0            -0             = 
+    13 constraint2[1,3,2]
+                                   0            -0             = 
+    14 constraint2[2,0,1]
+                                   0            -0             = 
+    15 constraint2[2,0,2]
+                                   0            -0             = 
+    16 constraint2[2,3,1]
+                                   0            -0             = 
+    17 constraint2[2,3,2]
+                                   0            -0             = 
+    18 constraint3[1,1,0]
+                                   0            -0             = 
+    19 constraint3[1,1,3]
+                                   0            -0             = 
+    20 constraint3[1,2,0]
+                                   0            -0             = 
+    21 constraint3[1,2,3]
+                                   0            -0             = 
+    22 constraint3[2,1,0]
+                                   0            -0             = 
+    23 constraint3[2,1,3]
+                                   0            -0             = 
+    24 constraint3[2,2,0]
+                                   0            -0             = 
+    25 constraint3[2,2,3]
+                                   0            -0             = 
+    26 constraint4[1,1,1]
+                                   1             1               
+    27 constraint4[1,1,2]
+                                   1             1               
+    28 constraint4[1,2,1]
+                                   1             1               
+    29 constraint4[1,2,2]
+                                   1             1               
+    30 constraint4[2,1,1]
+                                   1             1               
+    31 constraint4[2,1,2]
+                                   1             1               
+    32 constraint4[2,2,1]
+                                   1             1               
+    33 constraint4[2,2,2]
+                                   1             1               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1,1,1]     *              1             0             1 
+     2 x[1,1,2]     *              0             0             1 
+     3 x[1,2,1]     *              0             0             1 
+     4 x[1,2,2]     *              0             0             1 
+     5 x[2,1,1]     *              0             0             1 
+     6 x[2,1,2]     *              0             0             1 
+     7 x[2,2,1]     *              0             0             1 
+     8 x[2,2,2]     *              1             0             1 
+     9 x[0,1,1]     *              0             0             1 
+    10 x[0,1,2]     *              0             0             1 
+    11 x[0,2,1]     *              0             0             1 
+    12 x[0,2,2]     *              0             0             1 
+    13 x[3,1,1]     *              0             0             1 
+    14 x[3,1,2]     *              0             0             1 
+    15 x[3,2,1]     *              0             0             1 
+    16 x[3,2,2]     *              0             0             1 
+    17 x[1,0,1]     *              0             0             1 
+    18 x[1,0,2]     *              0             0             1 
+    19 x[1,3,1]     *              0             0             1 
+    20 x[1,3,2]     *              0             0             1 
+    21 x[2,0,1]     *              0             0             1 
+    22 x[2,0,2]     *              0             0             1 
+    23 x[2,3,1]     *              0             0             1 
+    24 x[2,3,2]     *              0             0             1 
+    25 x[1,1,0]     *              0             0             1 
+    26 x[1,1,3]     *              0             0             1 
+    27 x[1,2,0]     *              0             0             1 
+    28 x[1,2,3]     *              0             0             1 
+    29 x[2,1,0]     *              0             0             1 
+    30 x[2,1,3]     *              0             0             1 
+    31 x[2,2,0]     *              0             0             1 
+    32 x[2,2,3]     *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

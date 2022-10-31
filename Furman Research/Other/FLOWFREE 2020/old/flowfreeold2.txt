@@ -1,0 +1,93 @@
+set Paths;
+set Rows;
+set Columns;
+set extRows;
+set extColumns;
+set S dimen 3;
+
+
+var x{i in extRows, j in extColumns, k in Paths} binary;
+
+
+param y{i in Rows, j in Columns, k in Paths} binary;
+# =1 if square (i,j) is a start/end point, =0 otherwise
+
+
+maximize objective: sum{i in Rows}(sum{j in Columns}(sum{k in Paths}(x[i, j, k])));
+
+
+s.t. pathConstraint{i in Rows, j in Columns}: sum{k in Paths}(x[i, j, k]) = 1;
+#ensures each square is on exactly one path
+
+
+s.t. continuityConstraint1{i in Rows, j in Columns, k in Paths}: 2*x[i,j,k] <= x[i-1, j, k] + x[i+1, j, k] + x[i, j-1, k] + x[i, j+1, k] +y[i,j,k];
+#creates lower bound for number of adjacent squares for any square (i,j) on or not on any path k
+
+
+
+s.t. continuityConstraint2{i in Rows, j in Columns, k in Paths}: x[i-1, j, k] + x[i+1, j, k] + x[i, j-1, k] + x[i, j + 1, k] <= 3 - x[i, j, k];
+#creates upper bound for number of adjacent squares for any square (i,j) on or not on any path k
+
+
+
+#s.t. endpointConstraint1{i in Rows, j in Columns, k in Paths}: y[i,j,k]*(1-(x[i-1, j, k] + x[i+1, j, k] + x[i, j-1, k] + x[i, j+1, k])) = 0;
+#enforces bound for case in which a square is an endpoint
+
+
+
+#s.t. endpointConstraint2{i in Rows, j in Columns, k in Paths}: x[i,j,k] >= y[i,j,k];
+#ensures that when y[i,j,k] is 1, x[i,j,k] is either 0 or 1, and when y[i,j,k] is 0, x[i,j,k] is also 0
+
+
+
+#s.t. outOfBounds1{i in Rows, j in {0, 6}, k in Paths}: x[i, j, k] = 0;
+#ensures that paths do not include anything outside the original grid
+
+
+##s.t. outOfBounds2{i in {0, 6}, j in Columns, k in Paths}: x[i, j, k] = 0;
+#ensures that paths do not include anything outside the original grid
+
+
+
+
+
+
+
+#s.t. assignParamVal1{i in Rows, j in Columns, k in Paths}: if (i,j,k) in S then y[i,j,k] = 1;
+
+#s.t. assignParamVal2{i in Rows, j in Columns, k in Paths}: if (i,j,k) not in S then y[i,j,k] = 0;
+
+
+
+#s.t. continuityConstraint1{i in Rows, j in Columns, k in Paths}: x[i-1, j, k] + x[i+1, j, k] + x[i, j-1, k] + x[i, j+1, k] <= 2;
+#each square on the grid can't be adjacent to more than 2 other squares on its path
+
+
+#s.t. continuityConstraint2{i in Rows, j in Columns, k in Paths}: x[i-1, j, k] + x[i+1, j, k] + x[i, j-1, k] + x[i, j+1, k] >= 1;
+#each square on the grid must be adjacent to at least one other square on its path
+
+
+#s.t. pathConstraint{i in Rows, j in Columns}: sum{k in Paths}(x[i, j, k]) = 1;
+#ensures each square is on exactly one path
+
+
+#s.t. constraint1{i in Rows, j in {0, 6}, k in Paths}: x[i, j, k] = 0;
+#ensures that paths do not include anything outside the original grid
+
+
+#s.t. constraint2{i in {0, 6}, j in Columns, k in Paths}: x[i, j, k] = 0;
+#ensures that paths do not include anything outside the original grid
+
+
+#s.t. endpointConstraint{i in Rows, j in Columns, k in Paths}: (y[i,j,k])*(x[i-1, j, k] + x[i+1, j, k] + x[i, j-1, k] + x[i, j+1, k]) <= 1;
+#ensures that endpoints don't have more than one path branching off from them
+
+solve;
+
+end;
+
+
+
+
+
+

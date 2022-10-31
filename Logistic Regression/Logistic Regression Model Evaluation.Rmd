@@ -1,0 +1,228 @@
+---
+title: "Logistic Regression - Homework Report 3"
+author: "Sanket Sahasrabudhe, Ethan Scheper, Noah Johnson, Charis Williams, Elizabeth Surratt"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+## Load libraries and required data
+### Import libraries
+```{r setup, results='hide', message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(visreg)
+library(brglm)
+library(car)
+library(mgcv)
+library(multcomp)
+library(givitiR)
+library(DescTools)
+library(ggplot2)
+library(ROCR)
+library(InformationValue)
+library(brant)
+library(VGAM)
+library(nnet)
+library(survival)
+library(tidyverse)
+library(data.table)
+library(plotROC)
+```
+
+### Import data
+```{r load}
+setwd("D:/NCState/Fall/AA502/LogisticRegression")
+train <- read.csv("Homework3/insurance_t_bin.csv")
+validate <- read.csv("Homework3/insurance_v_bin.csv")
+```
+
+## Preprocessing & identify separation 
+### Training Data
+```{r preprocess_train}
+train[is.na(train)] = 'M'
+
+# Check each variable for separation concerns
+sep_list <- list()
+for (i in 1:length(train)) {
+  i_name <- names(train[i])
+  freqs <- table(train[[i_name]], train$INS)
+  test <- sapply(freqs, function(x) x==0)
+  if (TRUE %in% test) {
+      if (i_name != "INS"){
+        sep <- i_name
+        sep_list <- append(sep_list, sep)
+      }
+  }
+}
+print(paste(length(sep_list), "predictors with quasi-complete separation issues"))
+print(sep_list)
+```
+
+### Investigate Separation Issues
+``` {r investigate}
+table(train$CASHBK, train$INS)
+table(train$MMCRED, train$INS)
+```
+### Preprocess Validation Data
+``` {r preprocess_valid}
+validate[is.na(validate)] = 'M'
+```
+
+### Correct for separation issues in both datasets
+``` {r }
+train$CASHBK[train$CASHBK >= 1] = '1+'
+
+# Collapse the 3 and 5 categories in MMCRED to make just four total categories - 
+  # 3+ for at least 3 money market credits
+train$MMCRED[train$MMCRED >= 3] = '3+'
+
+
+validate$CASHBK[validate$CASHBK >= 1] = '1+'
+
+# Collapse the 3 and 5 categories in MMCRED to make just four total categories - 
+  # 3+ for at least 3 money market credits
+validate$MMCRED[validate$MMCRED >= 3] = '3+'
+```
+
+## Build and Validate Model
+### Transform all predictors as factors
+``` {r build_validate}
+train <- as.data.frame(lapply(train, function(x) as.factor(x)))
+validate <- as.data.frame(lapply(validate, function(x) as.factor(x)))
+```
+
+### Define the model
+``` {r define_model}
+final.model <- glm(INS ~ DDA+ NSF+ IRA+ INV+ ILS+ MM+ MTG+ CC+ DDABAL_Bin+ CHECKS_Bin + TELLER_Bin+ SAVBAL_Bin+ ATMAMT_Bin+ CDBAL_Bin + DDA:IRA,
+                   data = train,
+                   family = binomial(link = "logit"))
+
+```
+
+## Model Metrics
+### Extract Predicted probabilities
+
+``` {r extract_probs}
+train$p_hat <- predict(final.model, type = "response")
+```
+
+### Concordance, discordance and ties
+``` {r concordance_discordance}
+
+metrics <- Concordance(train$INS, train$p_hat)
+model.conc <- metrics[1]$Concordance
+model.disc <- metrics[2]$Discordance
+model.ties <- metrics[3]$Tied
+
+print(paste("Concordance of model is", round(model.conc, 4)))
+print(paste("Discordance of model is", round(model.disc, 4)))
+print(paste("Proportion of Ties in model is", round(model.ties, 4)))
+```
+
+### Plot Density of Predictions
+``` {r discrimination}
+p1 <- train$p_hat[train$INS == 1]
+p0 <- train$p_hat[train$INS == 0]
+coef_discrim <- mean(p1) - mean(p0)
+print(paste("Coefficient of Discrimination is", round(coef_discrim, 4)))
+```
+
+``` {r density}
+train %>% ggplot(aes(p_hat, fill = ifelse(INS==1, "Purchased", "Did not Purchase"))) +
+  geom_density(alpha = 0.6) +
+  # scale_fill_grey(na.value = "yellow") +
+  labs(x = "Predicted Probability",
+       y = "Density",
+       fill = "Target") +
+  ggtitle("Density Plot of Predicted Probabilities") +
+  theme_light() +
+  theme(plot.title = element_text(hjust = 0.5, size = 12, face = "bold")) +
+  scale_fill_manual(values = c("blue4", "cadetblue1"))
+```
+
+### ROC Curve & AUC
+``` {r roc_auc}
+pred <- prediction(fitted(final.model), factor(train$INS))
+perf <- performance(pred, measure="tpr", x.measure = "fpr")
+perf.df <- data.frame(cutoff=perf@x.values,
+                      prob=perf@y.values,
+                      alpha=perf@alpha.values)
+
+colnames(perf.df) <- c("FPR", "TPR", "Alpha")
+perf.df.melt <- melt(setDT(perf.df), id.vars = c("Alpha"), variable.name = "Type")
+
+plotROC(train$INS, train$p_hat)
+
+```
+
+
+### K-S Statistic
+``` {r ks}
+
+model.ks <- ks_stat(train$INS, train$p_hat)
+ks.cutoff <- unlist(perf@alpha.values)[which.max(perf@y.values[[1]] - perf@x.values[[1]])]
+
+print(paste("K-S Statistic for model is", round(model.ks, 4)))
+print(paste("Optimal cutoff from K-S value is", round(ks.cutoff, 4)))
+
+```
+
+``` {r plot_ks}
+perf.df.melt <- melt(setDT(perf.df), id.vars = c("Alpha"), variable.name = "Type")
+perf.df.melt %>% ggplot(aes(x=Alpha, y=(1-value), color=ifelse(Type=="FPR","Did not Purchase", "Purchased" ))) +
+  geom_line(size=1) +
+  ggtitle("K-S Plot") +
+  labs(x="Cutoff", y="Proportion", color="") +
+  scale_x_continuous(breaks = seq(0, 1, 0.2)) +
+  theme_light() +
+  theme(plot.title = element_text(size = 12, face = "bold", hjust = 0.5)) +
+  geom_vline(xintercept=ks.cutoff, linetype='dashed', alpha=0.5) +
+  scale_color_manual(values = c("orange", "darkblue"))
+```
+
+### Get Predictions from Validation set
+``` {r get_predictions,}
+
+validate$p_hat <- predict(final.model, newdata=validate, type="response")
+validate$p <- ifelse(validate$p_hat>ks.cutoff, 1, 0)
+```
+
+
+### Confusion Matrix
+``` {r confusion_matrix}
+cf.valid <- confusionMatrix(validate$INS, validate$p_hat, threshold = ks.cutoff)
+
+colnames(cf.valid) <- c("Did not purchase", "Did purchase")
+rownames(cf.valid) <- c("Predicted no purchase", "Predicted Purchase")
+cf.valid
+```
+
+### Lift Chart for validation
+``` {r lift}
+pred <- prediction(validate$p_hat, factor(validate$INS))
+perf <- performance(pred, measure = "lift", x.measure = "rpp")
+
+plot(perf, lwd = 3, colorize = TRUE, colorkey = TRUE,
+colorize.palette = blues9[-c(1,2)],
+main = "Lift Chart for Validation Data")
+abline(v=ks.cutoff, lty="dashed", lwd=1.25, col='blue')
+abline(h = 1, lty = 3)
+abline(h=1.7810144, lty="dashed",lwd=1.25, col='blue')
+```
+
+### Accuracy on Validation Data
+``` {r accuracy_valid}
+
+tp <- cf.valid[2,2]
+tn <- cf.valid[1,1]
+fp <- cf.valid[1,2]
+fn <- cf.valid[2,1]
+
+acc.valid <- (tp+tn)/(tp+tn+fp+fn)
+print(paste("Accuracy on validation data is", round(acc.valid, 4)))
+
+sens <- sensitivity(validate$INS, validate$p_hat, threshold = ks.cutoff)
+spec <- specificity(validate$INS, validate$p_hat, threshold = ks.cutoff)
+f1.score <- 2*(sens*spec)/(sens+spec)
+
+print(paste("F1 Score on the validation data is", f1.score))
+```

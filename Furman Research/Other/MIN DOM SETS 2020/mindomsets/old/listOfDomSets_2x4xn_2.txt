@@ -1,0 +1,28 @@
+The minimum dominating set of a 2 x 4 x 2 grid graph is: 
+[(1, 2, 1), (1, 4, 2), (2, 1, 2), (2, 3, 1)]
+The domination number is: 4
+
+The minimum dominating set of a 2 x 4 x 3 grid graph is: 
+[(1, 1, 2), (1, 2, 2), (1, 4, 2), (2, 1, 2), (2, 3, 1), (2, 3, 3)]
+The domination number is: 6
+
+The minimum dominating set of a 2 x 4 x 2 grid graph is: 
+[(1, 2, 1), (1, 4, 2), (2, 1, 2), (2, 3, 1)]
+The domination number is: 4
+
+The minimum dominating set of a 2 x 4 x 3 grid graph is: 
+[(1, 1, 2), (1, 2, 2), (1, 4, 2), (2, 1, 2), (2, 3, 1), (2, 3, 3)]
+The domination number is: 6
+
+The minimum dominating set of a 2 x 4 x 4 grid graph is: 
+[(1, 1, 3), (1, 2, 2), (1, 4, 1), (1, 4, 4), (2, 1, 1), (2, 2, 4), (2, 3, 3), (2, 4, 1)]
+The domination number is: 8
+
+The minimum dominating set of a 2 x 4 x 5 grid graph is: 
+[(1, 1, 1), (1, 2, 4), (1, 3, 4), (1, 4, 2), (2, 1, 3), (2, 1, 5), (2, 2, 2), (2, 3, 1), (2, 3, 3), (2, 4, 5)]
+The domination number is: 10
+
+The minimum dominating set of a 2 x 4 x 6 grid graph is: 
+[(1, 1, 4), (1, 2, 1), (1, 2, 4), (1, 3, 6), (1, 4, 3), (2, 1, 2), (2, 1, 6), (2, 2, 4), (2, 3, 2), (2, 4, 1), (2, 4, 5)]
+The domination number is: 11
+

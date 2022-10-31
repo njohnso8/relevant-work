@@ -1,0 +1,11 @@
+set Rows:= 1, 2, 3, 4, 5, 6;
+
+set Columns:= 1, 2, 3, 4, 5, 6;
+
+set Aisles := 1, 2, 3, 4, 5, 6;
+
+set exRows:= 0, 1, 2, 3, 4, 5, 6, 7;
+
+set exColumns := 0, 1, 2, 3, 4, 5, 6, 7;
+
+set exAisles := 0, 1, 2, 3, 4, 5, 6, 7;

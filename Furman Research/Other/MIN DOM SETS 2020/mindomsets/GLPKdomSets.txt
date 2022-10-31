@@ -1,0 +1,44 @@
+set Aisles;
+set Rows;
+set Columns;
+set exAisles;
+set exRows;
+set exColumns;
+
+var x{i in exRows, j in exColumns, k in exAisles} binary;
+/* coordinates on i,j,k */
+
+minimize objective:sum{i in Rows}(sum{j in Columns}(sum{k in Aisles}(x[i,j,k])));
+/* minimizing the number of nodes in the dominating set */
+
+
+s.t. constraint1{i in {0, 7}, j in Columns, k in Aisles}: x[i, j, k] = 0;
+
+s.t. constraint2{i in Rows, j in {0, 7}, k in Aisles}: x[i, j, k] = 0;
+
+s.t. constraint3{i in Rows, j in Columns, k in {0, 7}}: x[i, j, k] = 0;
+
+s.t. constraint4{i in Rows,j in Columns, k in Aisles}: x[i-1,j,k]+x[i+1,j,k]+x[i,j-1,k]+x[i,j+1,k]+x[i,j,k-1]+x[i,j,k+1]+x[i,j,k] >= 1;
+/* each node either is in the dominating set or next to at least one node in the dominating set */
+
+#s.t. constraint5{j in Columns, k in Aisles}: sum{i in Rows}(x[i,j,k]) <= 0.5*card(Rows);
+
+#s.t. constraint6{i in Rows, k in Aisles}: sum{j in Columns}(x[i,j,k]) <= 0.5*card(Columns);
+
+#s.t. constraint7{i in Rows, j in Columns}: sum{k in Aisles}(x[i,j,k]) <= 0.5*card(Aisles);
+
+#s.t. constraint8: sum{i in Rows}(sum{j in Columns}(sum{k in Aisles}(x[i, j, k]))) / card(Aisles) <= sum{i in Rows}(sum{j in Columns}(x[i, j, 1]));
+
+#s.t. upperBoundEdge: sum{i in Rows}(sum{j in Columns}(sum{k in Aisles}(x[i,j,k]))) <= ceil((card(Rows) * card(Columns) * card(Aisles) - 32) / 5) + 8;
+
+#s.t. upperBoundFace: sum{i in Rows}(sum{j in Columns}(sum{k in Aisles}(x[i,j,k]))) <= ceil((card(Rows) * card(Columns) * card(Aisles) - 32 - 20 * ((card(Rows) - 2) + (card(Columns) - 2) + (card(Aisles) - 2))) / 6) + 8 + 4 * ((card(Rows) - 2) + (card(Columns) - 2) + (card(Aisles) - 2));
+
+#s.t. upperBoundInterior: sum{i in Rows}(sum{j in Columns}(sum{k in Aisles}(x[i,j,k]))) <= ceil((card(Rows) * card(Columns) * card(Aisles) - 32 - 20 * ((card(Rows) - 2) + (card(Columns) - 2) + (card(Aisles) - 2)) - 12 * ((card(Rows) - 2) * (card(Columns) - 2) + (card(Rows) - 2) * (card(Aisles) - 2) + (card(Columns) - 2) * (card(Aisles) - 2))) / 7) + 8 + 4 * ((card(Rows) - 2) + (card(Columns) - 2) + (card(Aisles) - 2)) + 2 * ((card(Rows) - 2) * (card(Columns) - 2) + (card(Rows) - 2) * (card(Aisles) - 2) + (card(Columns) - 2) * (card(Aisles) - 2));
+
+#s.t. lowerBound: sum{i in Rows}(sum{j in Columns}(sum{k in Aisles}(x[i,j,k]))) >= ceil(((card(Rows) - 2) * (card(Columns) - 2) * (card(Aisles) - 2)) / 7) + ceil((2 * ((card(Rows) - 2) * (card(Columns) - 2) + (card(Rows) - 2) * (card(Aisles) - 2) + (card(Columns) - 2) * (card(Aisles) - 2))) / 6) + ceil((4 * ((card(Rows) - 2) + (card(Columns) - 2) + (card(Aisles) - 2))) / 5) + 2;
+
+#{i in Rows, j in Columns, k in Aisles}
+
+solve;
+
+end;

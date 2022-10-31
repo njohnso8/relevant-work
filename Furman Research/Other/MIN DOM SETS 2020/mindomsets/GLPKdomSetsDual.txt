@@ -1,0 +1,27 @@
+set Aisles;
+set Rows;
+set Columns;
+set exAisles;
+set exRows;
+set exColumns;
+
+var x{i in exRows, j in exColumns, k in exAisles} binary;
+/* coordinates on i,j,k */
+
+maximize objective:sum{i in Rows}(sum{j in Columns}(sum{k in Aisles}(x[i,j,k])));
+/* minimizing the number of nodes in the dominating set */
+
+
+s.t. constraint1{i in {0, 3}, j in Columns, k in Aisles}: x[i, j, k] = 0;
+
+s.t. constraint2{i in Rows, j in {0, 4}, k in Aisles}: x[i, j, k] = 0;
+
+s.t. constraint3{i in Rows, j in Columns, k in {0, 2}}: x[i, j, k] = 0;
+
+s.t. constraint4{i in Rows,j in Columns, k in Aisles}: x[i-1,j,k]+x[i+1,j,k]+x[i,j-1,k]+x[i,j+1,k]+x[i,j,k-1]+x[i,j,k+1]+x[i,j,k] <= 1;
+/* each node either is in the dominating set or next to at least one node in the dominating set */
+
+
+solve;
+
+end;

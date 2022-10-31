@@ -1,0 +1,400 @@
+The minimum dominating set of a 2 x 4 x 2 grid graph is: 
+[(1, 2, 1), (1, 4, 2), (2, 1, 2), (2, 3, 1)]
+The domination number is: 4
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 2 x 4 x 2 grid graph is: 
+[(1, 2, 1), (1, 4, 2), (2, 1, 2), (2, 3, 1)]
+The domination number is: 4
+
+The minimum dominating set of a 2 x 4 x 3 grid graph is: 
+[(1, 1, 2), (1, 2, 2), (1, 4, 2), (2, 1, 2), (2, 3, 1), (2, 3, 3)]
+The domination number is: 6
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+
+The minimum dominating set of a 0 x 0 x 0 grid graph is: 
+[]
+The domination number is: 0
+

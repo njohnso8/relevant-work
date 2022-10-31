@@ -1,0 +1,1100 @@
+Problem:    flowfree
+Rows:       386
+Columns:    225 (225 integer, 225 binary)
+Non-zeros:  1390
+Status:     INTEGER OPTIMAL
+Objective:  objective = 25 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 objective                  25                             
+     2 constraint1[1,1]
+                                   1             1             = 
+     3 constraint1[1,2]
+                                   1             1             = 
+     4 constraint1[1,3]
+                                   1             1             = 
+     5 constraint1[1,4]
+                                   1             1             = 
+     6 constraint1[1,5]
+                                   1             1             = 
+     7 constraint1[2,1]
+                                   1             1             = 
+     8 constraint1[2,2]
+                                   1             1             = 
+     9 constraint1[2,3]
+                                   1             1             = 
+    10 constraint1[2,4]
+                                   1             1             = 
+    11 constraint1[2,5]
+                                   1             1             = 
+    12 constraint1[3,1]
+                                   1             1             = 
+    13 constraint1[3,2]
+                                   1             1             = 
+    14 constraint1[3,3]
+                                   1             1             = 
+    15 constraint1[3,4]
+                                   1             1             = 
+    16 constraint1[3,5]
+                                   1             1             = 
+    17 constraint1[4,1]
+                                   1             1             = 
+    18 constraint1[4,2]
+                                   1             1             = 
+    19 constraint1[4,3]
+                                   1             1             = 
+    20 constraint1[4,4]
+                                   1             1             = 
+    21 constraint1[4,5]
+                                   1             1             = 
+    22 constraint1[5,1]
+                                   1             1             = 
+    23 constraint1[5,2]
+                                   1             1             = 
+    24 constraint1[5,3]
+                                   1             1             = 
+    25 constraint1[5,4]
+                                   1             1             = 
+    26 constraint1[5,5]
+                                   1             1             = 
+    27 constraint2[0,1,Blue]
+                                   0            -0             = 
+    28 constraint2[0,1,Red]
+                                   0            -0             = 
+    29 constraint2[0,1,Green]
+                                   0            -0             = 
+    30 constraint2[0,1,Yellow]
+                                   0            -0             = 
+    31 constraint2[0,1,Orange]
+                                   0            -0             = 
+    32 constraint2[0,2,Blue]
+                                   0            -0             = 
+    33 constraint2[0,2,Red]
+                                   0            -0             = 
+    34 constraint2[0,2,Green]
+                                   0            -0             = 
+    35 constraint2[0,2,Yellow]
+                                   0            -0             = 
+    36 constraint2[0,2,Orange]
+                                   0            -0             = 
+    37 constraint2[0,3,Blue]
+                                   0            -0             = 
+    38 constraint2[0,3,Red]
+                                   0            -0             = 
+    39 constraint2[0,3,Green]
+                                   0            -0             = 
+    40 constraint2[0,3,Yellow]
+                                   0            -0             = 
+    41 constraint2[0,3,Orange]
+                                   0            -0             = 
+    42 constraint2[0,4,Blue]
+                                   0            -0             = 
+    43 constraint2[0,4,Red]
+                                   0            -0             = 
+    44 constraint2[0,4,Green]
+                                   0            -0             = 
+    45 constraint2[0,4,Yellow]
+                                   0            -0             = 
+    46 constraint2[0,4,Orange]
+                                   0            -0             = 
+    47 constraint2[0,5,Blue]
+                                   0            -0             = 
+    48 constraint2[0,5,Red]
+                                   0            -0             = 
+    49 constraint2[0,5,Green]
+                                   0            -0             = 
+    50 constraint2[0,5,Yellow]
+                                   0            -0             = 
+    51 constraint2[0,5,Orange]
+                                   0            -0             = 
+    52 constraint2[6,1,Blue]
+                                   0            -0             = 
+    53 constraint2[6,1,Red]
+                                   0            -0             = 
+    54 constraint2[6,1,Green]
+                                   0            -0             = 
+    55 constraint2[6,1,Yellow]
+                                   0            -0             = 
+    56 constraint2[6,1,Orange]
+                                   0            -0             = 
+    57 constraint2[6,2,Blue]
+                                   0            -0             = 
+    58 constraint2[6,2,Red]
+                                   0            -0             = 
+    59 constraint2[6,2,Green]
+                                   0            -0             = 
+    60 constraint2[6,2,Yellow]
+                                   0            -0             = 
+    61 constraint2[6,2,Orange]
+                                   0            -0             = 
+    62 constraint2[6,3,Blue]
+                                   0            -0             = 
+    63 constraint2[6,3,Red]
+                                   0            -0             = 
+    64 constraint2[6,3,Green]
+                                   0            -0             = 
+    65 constraint2[6,3,Yellow]
+                                   0            -0             = 
+    66 constraint2[6,3,Orange]
+                                   0            -0             = 
+    67 constraint2[6,4,Blue]
+                                   0            -0             = 
+    68 constraint2[6,4,Red]
+                                   0            -0             = 
+    69 constraint2[6,4,Green]
+                                   0            -0             = 
+    70 constraint2[6,4,Yellow]
+                                   0            -0             = 
+    71 constraint2[6,4,Orange]
+                                   0            -0             = 
+    72 constraint2[6,5,Blue]
+                                   0            -0             = 
+    73 constraint2[6,5,Red]
+                                   0            -0             = 
+    74 constraint2[6,5,Green]
+                                   0            -0             = 
+    75 constraint2[6,5,Yellow]
+                                   0            -0             = 
+    76 constraint2[6,5,Orange]
+                                   0            -0             = 
+    77 constraint3[1,0,Blue]
+                                   0            -0             = 
+    78 constraint3[1,0,Red]
+                                   0            -0             = 
+    79 constraint3[1,0,Green]
+                                   0            -0             = 
+    80 constraint3[1,0,Yellow]
+                                   0            -0             = 
+    81 constraint3[1,0,Orange]
+                                   0            -0             = 
+    82 constraint3[1,6,Blue]
+                                   0            -0             = 
+    83 constraint3[1,6,Red]
+                                   0            -0             = 
+    84 constraint3[1,6,Green]
+                                   0            -0             = 
+    85 constraint3[1,6,Yellow]
+                                   0            -0             = 
+    86 constraint3[1,6,Orange]
+                                   0            -0             = 
+    87 constraint3[2,0,Blue]
+                                   0            -0             = 
+    88 constraint3[2,0,Red]
+                                   0            -0             = 
+    89 constraint3[2,0,Green]
+                                   0            -0             = 
+    90 constraint3[2,0,Yellow]
+                                   0            -0             = 
+    91 constraint3[2,0,Orange]
+                                   0            -0             = 
+    92 constraint3[2,6,Blue]
+                                   0            -0             = 
+    93 constraint3[2,6,Red]
+                                   0            -0             = 
+    94 constraint3[2,6,Green]
+                                   0            -0             = 
+    95 constraint3[2,6,Yellow]
+                                   0            -0             = 
+    96 constraint3[2,6,Orange]
+                                   0            -0             = 
+    97 constraint3[3,0,Blue]
+                                   0            -0             = 
+    98 constraint3[3,0,Red]
+                                   0            -0             = 
+    99 constraint3[3,0,Green]
+                                   0            -0             = 
+   100 constraint3[3,0,Yellow]
+                                   0            -0             = 
+   101 constraint3[3,0,Orange]
+                                   0            -0             = 
+   102 constraint3[3,6,Blue]
+                                   0            -0             = 
+   103 constraint3[3,6,Red]
+                                   0            -0             = 
+   104 constraint3[3,6,Green]
+                                   0            -0             = 
+   105 constraint3[3,6,Yellow]
+                                   0            -0             = 
+   106 constraint3[3,6,Orange]
+                                   0            -0             = 
+   107 constraint3[4,0,Blue]
+                                   0            -0             = 
+   108 constraint3[4,0,Red]
+                                   0            -0             = 
+   109 constraint3[4,0,Green]
+                                   0            -0             = 
+   110 constraint3[4,0,Yellow]
+                                   0            -0             = 
+   111 constraint3[4,0,Orange]
+                                   0            -0             = 
+   112 constraint3[4,6,Blue]
+                                   0            -0             = 
+   113 constraint3[4,6,Red]
+                                   0            -0             = 
+   114 constraint3[4,6,Green]
+                                   0            -0             = 
+   115 constraint3[4,6,Yellow]
+                                   0            -0             = 
+   116 constraint3[4,6,Orange]
+                                   0            -0             = 
+   117 constraint3[5,0,Blue]
+                                   0            -0             = 
+   118 constraint3[5,0,Red]
+                                   0            -0             = 
+   119 constraint3[5,0,Green]
+                                   0            -0             = 
+   120 constraint3[5,0,Yellow]
+                                   0            -0             = 
+   121 constraint3[5,0,Orange]
+                                   0            -0             = 
+   122 constraint3[5,6,Blue]
+                                   0            -0             = 
+   123 constraint3[5,6,Red]
+                                   0            -0             = 
+   124 constraint3[5,6,Green]
+                                   0            -0             = 
+   125 constraint3[5,6,Yellow]
+                                   0            -0             = 
+   126 constraint3[5,6,Orange]
+                                   0            -0             = 
+   127 constraint4[1,1]
+                                   0                           2 
+   128 constraint4[1,2]
+                                   0                           2 
+   129 constraint4[1,3]
+                                   0                           2 
+   130 constraint4[1,4]
+                                   0                           2 
+   131 constraint4[1,5]
+                                   0                           2 
+   132 constraint4[2,1]
+                                   1                           2 
+   133 constraint4[2,2]
+                                   0                           2 
+   134 constraint4[2,3]
+                                   1                           2 
+   135 constraint4[2,4]
+                                   0                           2 
+   136 constraint4[2,5]
+                                   0                           2 
+   137 constraint4[3,1]
+                                   0                           2 
+   138 constraint4[3,2]
+                                   2                           2 
+   139 constraint4[3,3]
+                                   1                           2 
+   140 constraint4[3,4]
+                                   1                           2 
+   141 constraint4[3,5]
+                                   0                           2 
+   142 constraint4[4,1]
+                                   1                           2 
+   143 constraint4[4,2]
+                                   1                           2 
+   144 constraint4[4,3]
+                                   1                           2 
+   145 constraint4[4,4]
+                                   1                           2 
+   146 constraint4[4,5]
+                                   0                           2 
+   147 constraint4[5,1]
+                                   0                           2 
+   148 constraint4[5,2]
+                                   0                           2 
+   149 constraint4[5,3]
+                                   1                           2 
+   150 constraint4[5,4]
+                                   0                           2 
+   151 constraint4[5,5]
+                                   0                           2 
+   152 constraint19[1,1]
+                                   0            -0               
+   153 constraint19[1,2]
+                                   0            -0               
+   154 constraint19[1,3]
+                                   0            -0               
+   155 constraint19[1,4]
+                                   0            -0               
+   156 constraint19[1,5]
+                                   0            -0               
+   157 constraint19[2,1]
+                                   1            -0               
+   158 constraint19[2,2]
+                                   0            -0               
+   159 constraint19[2,3]
+                                   1            -0               
+   160 constraint19[2,4]
+                                   0            -0               
+   161 constraint19[2,5]
+                                   0            -0               
+   162 constraint19[3,1]
+                                   0            -0               
+   163 constraint19[3,2]
+                                   2            -0               
+   164 constraint19[3,3]
+                                   1            -0               
+   165 constraint19[3,4]
+                                   1            -0               
+   166 constraint19[3,5]
+                                   0            -0               
+   167 constraint19[4,1]
+                                   1            -0               
+   168 constraint19[4,2]
+                                   1            -0               
+   169 constraint19[4,3]
+                                   1            -0               
+   170 constraint19[4,4]
+                                   1            -0               
+   171 constraint19[4,5]
+                                   0            -0               
+   172 constraint19[5,1]
+                                   0            -0               
+   173 constraint19[5,2]
+                                   0            -0               
+   174 constraint19[5,3]
+                                   1            -0               
+   175 constraint19[5,4]
+                                   0            -0               
+   176 constraint19[5,5]
+                                   0            -0               
+   177 constraint5[1,1]
+                                   1                           2 
+   178 constraint5[1,2]
+                                   1                           2 
+   179 constraint5[1,3]
+                                   0                           2 
+   180 constraint5[1,4]
+                                   0                           2 
+   181 constraint5[1,5]
+                                   0                           2 
+   182 constraint5[2,1]
+                                   1                           2 
+   183 constraint5[2,2]
+                                   1                           2 
+   184 constraint5[2,3]
+                                   1                           2 
+   185 constraint5[2,4]
+                                   0                           2 
+   186 constraint5[2,5]
+                                   0                           2 
+   187 constraint5[3,1]
+                                   1                           2 
+   188 constraint5[3,2]
+                                   1                           2 
+   189 constraint5[3,3]
+                                   0                           2 
+   190 constraint5[3,4]
+                                   0                           2 
+   191 constraint5[3,5]
+                                   0                           2 
+   192 constraint5[4,1]
+                                   0                           2 
+   193 constraint5[4,2]
+                                   0                           2 
+   194 constraint5[4,3]
+                                   1                           2 
+   195 constraint5[4,4]
+                                   0                           2 
+   196 constraint5[4,5]
+                                   0                           2 
+   197 constraint5[5,1]
+                                   0                           2 
+   198 constraint5[5,2]
+                                   1                           2 
+   199 constraint5[5,3]
+                                   0                           2 
+   200 constraint5[5,4]
+                                   1                           2 
+   201 constraint5[5,5]
+                                   0                           2 
+   202 constraint20[1,1]
+                                   1            -0               
+   203 constraint20[1,2]
+                                   1            -0               
+   204 constraint20[1,3]
+                                   0            -0               
+   205 constraint20[1,4]
+                                   0            -0               
+   206 constraint20[1,5]
+                                   0            -0               
+   207 constraint20[2,1]
+                                   1            -0               
+   208 constraint20[2,2]
+                                   1            -0               
+   209 constraint20[2,3]
+                                   1            -0               
+   210 constraint20[2,4]
+                                   0            -0               
+   211 constraint20[2,5]
+                                   0            -0               
+   212 constraint20[3,1]
+                                   1            -0               
+   213 constraint20[3,2]
+                                   1            -0               
+   214 constraint20[3,3]
+                                   0            -0               
+   215 constraint20[3,4]
+                                   0            -0               
+   216 constraint20[3,5]
+                                   0            -0               
+   217 constraint20[4,1]
+                                   0            -0               
+   218 constraint20[4,2]
+                                   0            -0               
+   219 constraint20[4,3]
+                                   1            -0               
+   220 constraint20[4,4]
+                                   0            -0               
+   221 constraint20[4,5]
+                                   0            -0               
+   222 constraint20[5,1]
+                                   0            -0               
+   223 constraint20[5,2]
+                                   1            -0               
+   224 constraint20[5,3]
+                                   0            -0               
+   225 constraint20[5,4]
+                                   1            -0               
+   226 constraint20[5,5]
+                                   0            -0               
+   227 constraint6[1,1]
+                                   0                           2 
+   228 constraint6[1,2]
+                                   0                           2 
+   229 constraint6[1,3]
+                                   1                           2 
+   230 constraint6[1,4]
+                                   0                           2 
+   231 constraint6[1,5]
+                                   0                           2 
+   232 constraint6[2,1]
+                                   0                           2 
+   233 constraint6[2,2]
+                                   1                           2 
+   234 constraint6[2,3]
+                                   0                           2 
+   235 constraint6[2,4]
+                                   1                           2 
+   236 constraint6[2,5]
+                                   0                           2 
+   237 constraint6[3,1]
+                                   0                           2 
+   238 constraint6[3,2]
+                                   0                           2 
+   239 constraint6[3,3]
+                                   1                           2 
+   240 constraint6[3,4]
+                                   0                           2 
+   241 constraint6[3,5]
+                                   0                           2 
+   242 constraint6[4,1]
+                                   0                           2 
+   243 constraint6[4,2]
+                                   1                           2 
+   244 constraint6[4,3]
+                                   0                           2 
+   245 constraint6[4,4]
+                                   0                           2 
+   246 constraint6[4,5]
+                                   0                           2 
+   247 constraint6[5,1]
+                                   1                           2 
+   248 constraint6[5,2]
+                                   0                           2 
+   249 constraint6[5,3]
+                                   1                           2 
+   250 constraint6[5,4]
+                                   0                           2 
+   251 constraint6[5,5]
+                                   0                           2 
+   252 constraint21[1,1]
+                                   0            -0               
+   253 constraint21[1,2]
+                                   0            -0               
+   254 constraint21[1,3]
+                                   1            -0               
+   255 constraint21[1,4]
+                                   0            -0               
+   256 constraint21[1,5]
+                                   0            -0               
+   257 constraint21[2,1]
+                                   0            -0               
+   258 constraint21[2,2]
+                                   1            -0               
+   259 constraint21[2,3]
+                                   0            -0               
+   260 constraint21[2,4]
+                                   1            -0               
+   261 constraint21[2,5]
+                                   0            -0               
+   262 constraint21[3,1]
+                                   0            -0               
+   263 constraint21[3,2]
+                                   0            -0               
+   264 constraint21[3,3]
+                                   1            -0               
+   265 constraint21[3,4]
+                                   0            -0               
+   266 constraint21[3,5]
+                                   0            -0               
+   267 constraint21[4,1]
+                                   0            -0               
+   268 constraint21[4,2]
+                                   1            -0               
+   269 constraint21[4,3]
+                                   0            -0               
+   270 constraint21[4,4]
+                                   0            -0               
+   271 constraint21[4,5]
+                                   0            -0               
+   272 constraint21[5,1]
+                                   1            -0               
+   273 constraint21[5,2]
+                                   0            -0               
+   274 constraint21[5,3]
+                                   1            -0               
+   275 constraint21[5,4]
+                                   0            -0               
+   276 constraint21[5,5]
+                                   0            -0               
+   277 constraint7[1,1]
+                                   0                           2 
+   278 constraint7[1,2]
+                                   0                           2 
+   279 constraint7[1,3]
+                                   0                           2 
+   280 constraint7[1,4]
+                                   2                           2 
+   281 constraint7[1,5]
+                                   1                           2 
+   282 constraint7[2,1]
+                                   0                           2 
+   283 constraint7[2,2]
+                                   0                           2 
+   284 constraint7[2,3]
+                                   1                           2 
+   285 constraint7[2,4]
+                                   1                           2 
+   286 constraint7[2,5]
+                                   2                           2 
+   287 constraint7[3,1]
+                                   0                           2 
+   288 constraint7[3,2]
+                                   0                           2 
+   289 constraint7[3,3]
+                                   0                           2 
+   290 constraint7[3,4]
+                                   2                           2 
+   291 constraint7[3,5]
+                                   1                           2 
+   292 constraint7[4,1]
+                                   0                           2 
+   293 constraint7[4,2]
+                                   0                           2 
+   294 constraint7[4,3]
+                                   1                           2 
+   295 constraint7[4,4]
+                                   1                           2 
+   296 constraint7[4,5]
+                                   1                           2 
+   297 constraint7[5,1]
+                                   0                           2 
+   298 constraint7[5,2]
+                                   0                           2 
+   299 constraint7[5,3]
+                                   1                           2 
+   300 constraint7[5,4]
+                                   1                           2 
+   301 constraint7[5,5]
+                                   1                           2 
+   302 constraint22[1,1]
+                                   0            -0               
+   303 constraint22[1,2]
+                                   0            -0               
+   304 constraint22[1,3]
+                                   0            -0               
+   305 constraint22[1,4]
+                                   2            -0               
+   306 constraint22[1,5]
+                                   1            -0               
+   307 constraint22[2,1]
+                                   0            -0               
+   308 constraint22[2,2]
+                                   0            -0               
+   309 constraint22[2,3]
+                                   1            -0               
+   310 constraint22[2,4]
+                                   1            -0               
+   311 constraint22[2,5]
+                                   2            -0               
+   312 constraint22[3,1]
+                                   0            -0               
+   313 constraint22[3,2]
+                                   0            -0               
+   314 constraint22[3,3]
+                                   0            -0               
+   315 constraint22[3,4]
+                                   2            -0               
+   316 constraint22[3,5]
+                                   1            -0               
+   317 constraint22[4,1]
+                                   0            -0               
+   318 constraint22[4,2]
+                                   0            -0               
+   319 constraint22[4,3]
+                                   1            -0               
+   320 constraint22[4,4]
+                                   1            -0               
+   321 constraint22[4,5]
+                                   1            -0               
+   322 constraint22[5,1]
+                                   0            -0               
+   323 constraint22[5,2]
+                                   0            -0               
+   324 constraint22[5,3]
+                                   1            -0               
+   325 constraint22[5,4]
+                                   1            -0               
+   326 constraint22[5,5]
+                                   1            -0               
+   327 constraint8[1,1]
+                                   1                           2 
+   328 constraint8[1,2]
+                                   2                           2 
+   329 constraint8[1,3]
+                                   2                           2 
+   330 constraint8[1,4]
+                                   1                           2 
+   331 constraint8[1,5]
+                                   1                           2 
+   332 constraint8[2,1]
+                                   1                           2 
+   333 constraint8[2,2]
+                                   2                           2 
+   334 constraint8[2,3]
+                                   1                           2 
+   335 constraint8[2,4]
+                                   2                           2 
+   336 constraint8[2,5]
+                                   1                           2 
+   337 constraint8[3,1]
+                                   2                           2 
+   338 constraint8[3,2]
+                                   1                           2 
+   339 constraint8[3,3]
+                                   2                           2 
+   340 constraint8[3,4]
+                                   1                           2 
+   341 constraint8[3,5]
+                                   2                           2 
+   342 constraint8[4,1]
+                                   2                           2 
+   343 constraint8[4,2]
+                                   2                           2 
+   344 constraint8[4,3]
+                                   1                           2 
+   345 constraint8[4,4]
+                                   2                           2 
+   346 constraint8[4,5]
+                                   2                           2 
+   347 constraint8[5,1]
+                                   1                           2 
+   348 constraint8[5,2]
+                                   2                           2 
+   349 constraint8[5,3]
+                                   0                           2 
+   350 constraint8[5,4]
+                                   1                           2 
+   351 constraint8[5,5]
+                                   1                           2 
+   352 constraint23[1,1]
+                                   1            -0               
+   353 constraint23[1,2]
+                                   2            -0               
+   354 constraint23[1,3]
+                                   2            -0               
+   355 constraint23[1,4]
+                                   1            -0               
+   356 constraint23[1,5]
+                                   1            -0               
+   357 constraint23[2,1]
+                                   1            -0               
+   358 constraint23[2,2]
+                                   2            -0               
+   359 constraint23[2,3]
+                                   1            -0               
+   360 constraint23[2,4]
+                                   2            -0               
+   361 constraint23[2,5]
+                                   1            -0               
+   362 constraint23[3,1]
+                                   2            -0               
+   363 constraint23[3,2]
+                                   1            -0               
+   364 constraint23[3,3]
+                                   2            -0               
+   365 constraint23[3,4]
+                                   1            -0               
+   366 constraint23[3,5]
+                                   2            -0               
+   367 constraint23[4,1]
+                                   2            -0               
+   368 constraint23[4,2]
+                                   2            -0               
+   369 constraint23[4,3]
+                                   1            -0               
+   370 constraint23[4,4]
+                                   2            -0               
+   371 constraint23[4,5]
+                                   2            -0               
+   372 constraint23[5,1]
+                                   1            -0               
+   373 constraint23[5,2]
+                                   2            -0               
+   374 constraint23[5,3]
+                                   0            -0               
+   375 constraint23[5,4]
+                                   1            -0               
+   376 constraint23[5,5]
+                                   1            -0               
+   377 constraint9                 1             1             = 
+   378 constraint10                1             1             = 
+   379 constraint11                1             1             = 
+   380 constraint12                1             1             = 
+   381 constraint13                1             1             = 
+   382 constraint14                1             1             = 
+   383 constraint15                1             1             = 
+   384 constraint16                1             1             = 
+   385 constraint17                1             1             = 
+   386 constraint18                1             1             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1,1,Blue]  *              0             0             1 
+     2 x[1,1,Red]   *              0             0             1 
+     3 x[1,1,Green] *              0             0             1 
+     4 x[1,1,Yellow]
+                    *              0             0             1 
+     5 x[1,1,Orange]
+                    *              1             0             1 
+     6 x[1,2,Blue]  *              0             0             1 
+     7 x[1,2,Red]   *              0             0             1 
+     8 x[1,2,Green] *              0             0             1 
+     9 x[1,2,Yellow]
+                    *              0             0             1 
+    10 x[1,2,Orange]
+                    *              1             0             1 
+    11 x[1,3,Blue]  *              0             0             1 
+    12 x[1,3,Red]   *              0             0             1 
+    13 x[1,3,Green] *              0             0             1 
+    14 x[1,3,Yellow]
+                    *              0             0             1 
+    15 x[1,3,Orange]
+                    *              1             0             1 
+    16 x[1,4,Blue]  *              0             0             1 
+    17 x[1,4,Red]   *              0             0             1 
+    18 x[1,4,Green] *              0             0             1 
+    19 x[1,4,Yellow]
+                    *              0             0             1 
+    20 x[1,4,Orange]
+                    *              1             0             1 
+    21 x[1,5,Blue]  *              0             0             1 
+    22 x[1,5,Red]   *              0             0             1 
+    23 x[1,5,Green] *              0             0             1 
+    24 x[1,5,Yellow]
+                    *              1             0             1 
+    25 x[1,5,Orange]
+                    *              0             0             1 
+    26 x[2,1,Blue]  *              0             0             1 
+    27 x[2,1,Red]   *              1             0             1 
+    28 x[2,1,Green] *              0             0             1 
+    29 x[2,1,Yellow]
+                    *              0             0             1 
+    30 x[2,1,Orange]
+                    *              0             0             1 
+    31 x[2,2,Blue]  *              0             0             1 
+    32 x[2,2,Red]   *              1             0             1 
+    33 x[2,2,Green] *              0             0             1 
+    34 x[2,2,Yellow]
+                    *              0             0             1 
+    35 x[2,2,Orange]
+                    *              0             0             1 
+    36 x[2,3,Blue]  *              0             0             1 
+    37 x[2,3,Red]   *              0             0             1 
+    38 x[2,3,Green] *              1             0             1 
+    39 x[2,3,Yellow]
+                    *              0             0             1 
+    40 x[2,3,Orange]
+                    *              0             0             1 
+    41 x[2,4,Blue]  *              0             0             1 
+    42 x[2,4,Red]   *              0             0             1 
+    43 x[2,4,Green] *              0             0             1 
+    44 x[2,4,Yellow]
+                    *              1             0             1 
+    45 x[2,4,Orange]
+                    *              0             0             1 
+    46 x[2,5,Blue]  *              0             0             1 
+    47 x[2,5,Red]   *              0             0             1 
+    48 x[2,5,Green] *              0             0             1 
+    49 x[2,5,Yellow]
+                    *              1             0             1 
+    50 x[2,5,Orange]
+                    *              0             0             1 
+    51 x[3,1,Blue]  *              1             0             1 
+    52 x[3,1,Red]   *              0             0             1 
+    53 x[3,1,Green] *              0             0             1 
+    54 x[3,1,Yellow]
+                    *              0             0             1 
+    55 x[3,1,Orange]
+                    *              0             0             1 
+    56 x[3,2,Blue]  *              0             0             1 
+    57 x[3,2,Red]   *              0             0             1 
+    58 x[3,2,Green] *              0             0             1 
+    59 x[3,2,Yellow]
+                    *              0             0             1 
+    60 x[3,2,Orange]
+                    *              1             0             1 
+    61 x[3,3,Blue]  *              1             0             1 
+    62 x[3,3,Red]   *              0             0             1 
+    63 x[3,3,Green] *              0             0             1 
+    64 x[3,3,Yellow]
+                    *              0             0             1 
+    65 x[3,3,Orange]
+                    *              0             0             1 
+    66 x[3,4,Blue]  *              0             0             1 
+    67 x[3,4,Red]   *              0             0             1 
+    68 x[3,4,Green] *              0             0             1 
+    69 x[3,4,Yellow]
+                    *              0             0             1 
+    70 x[3,4,Orange]
+                    *              1             0             1 
+    71 x[3,5,Blue]  *              0             0             1 
+    72 x[3,5,Red]   *              0             0             1 
+    73 x[3,5,Green] *              0             0             1 
+    74 x[3,5,Yellow]
+                    *              0             0             1 
+    75 x[3,5,Orange]
+                    *              1             0             1 
+    76 x[4,1,Blue]  *              0             0             1 
+    77 x[4,1,Red]   *              0             0             1 
+    78 x[4,1,Green] *              0             0             1 
+    79 x[4,1,Yellow]
+                    *              0             0             1 
+    80 x[4,1,Orange]
+                    *              1             0             1 
+    81 x[4,2,Blue]  *              0             0             1 
+    82 x[4,2,Red]   *              0             0             1 
+    83 x[4,2,Green] *              0             0             1 
+    84 x[4,2,Yellow]
+                    *              0             0             1 
+    85 x[4,2,Orange]
+                    *              1             0             1 
+    86 x[4,3,Blue]  *              1             0             1 
+    87 x[4,3,Red]   *              0             0             1 
+    88 x[4,3,Green] *              0             0             1 
+    89 x[4,3,Yellow]
+                    *              0             0             1 
+    90 x[4,3,Orange]
+                    *              0             0             1 
+    91 x[4,4,Blue]  *              0             0             1 
+    92 x[4,4,Red]   *              0             0             1 
+    93 x[4,4,Green] *              0             0             1 
+    94 x[4,4,Yellow]
+                    *              1             0             1 
+    95 x[4,4,Orange]
+                    *              0             0             1 
+    96 x[4,5,Blue]  *              0             0             1 
+    97 x[4,5,Red]   *              0             0             1 
+    98 x[4,5,Green] *              0             0             1 
+    99 x[4,5,Yellow]
+                    *              0             0             1 
+   100 x[4,5,Orange]
+                    *              1             0             1 
+   101 x[5,1,Blue]  *              0             0             1 
+   102 x[5,1,Red]   *              0             0             1 
+   103 x[5,1,Green] *              0             0             1 
+   104 x[5,1,Yellow]
+                    *              0             0             1 
+   105 x[5,1,Orange]
+                    *              1             0             1 
+   106 x[5,2,Blue]  *              0             0             1 
+   107 x[5,2,Red]   *              0             0             1 
+   108 x[5,2,Green] *              1             0             1 
+   109 x[5,2,Yellow]
+                    *              0             0             1 
+   110 x[5,2,Orange]
+                    *              0             0             1 
+   111 x[5,3,Blue]  *              0             0             1 
+   112 x[5,3,Red]   *              1             0             1 
+   113 x[5,3,Green] *              0             0             1 
+   114 x[5,3,Yellow]
+                    *              0             0             1 
+   115 x[5,3,Orange]
+                    *              0             0             1 
+   116 x[5,4,Blue]  *              0             0             1 
+   117 x[5,4,Red]   *              0             0             1 
+   118 x[5,4,Green] *              0             0             1 
+   119 x[5,4,Yellow]
+                    *              1             0             1 
+   120 x[5,4,Orange]
+                    *              0             0             1 
+   121 x[5,5,Blue]  *              0             0             1 
+   122 x[5,5,Red]   *              0             0             1 
+   123 x[5,5,Green] *              0             0             1 
+   124 x[5,5,Yellow]
+                    *              0             0             1 
+   125 x[5,5,Orange]
+                    *              1             0             1 
+   126 x[0,1,Blue]  *              0             0             1 
+   127 x[0,1,Red]   *              0             0             1 
+   128 x[0,1,Green] *              0             0             1 
+   129 x[0,1,Yellow]
+                    *              0             0             1 
+   130 x[0,1,Orange]
+                    *              0             0             1 
+   131 x[0,2,Blue]  *              0             0             1 
+   132 x[0,2,Red]   *              0             0             1 
+   133 x[0,2,Green] *              0             0             1 
+   134 x[0,2,Yellow]
+                    *              0             0             1 
+   135 x[0,2,Orange]
+                    *              0             0             1 
+   136 x[0,3,Blue]  *              0             0             1 
+   137 x[0,3,Red]   *              0             0             1 
+   138 x[0,3,Green] *              0             0             1 
+   139 x[0,3,Yellow]
+                    *              0             0             1 
+   140 x[0,3,Orange]
+                    *              0             0             1 
+   141 x[0,4,Blue]  *              0             0             1 
+   142 x[0,4,Red]   *              0             0             1 
+   143 x[0,4,Green] *              0             0             1 
+   144 x[0,4,Yellow]
+                    *              0             0             1 
+   145 x[0,4,Orange]
+                    *              0             0             1 
+   146 x[0,5,Blue]  *              0             0             1 
+   147 x[0,5,Red]   *              0             0             1 
+   148 x[0,5,Green] *              0             0             1 
+   149 x[0,5,Yellow]
+                    *              0             0             1 
+   150 x[0,5,Orange]
+                    *              0             0             1 
+   151 x[6,1,Blue]  *              0             0             1 
+   152 x[6,1,Red]   *              0             0             1 
+   153 x[6,1,Green] *              0             0             1 
+   154 x[6,1,Yellow]
+                    *              0             0             1 
+   155 x[6,1,Orange]
+                    *              0             0             1 
+   156 x[6,2,Blue]  *              0             0             1 
+   157 x[6,2,Red]   *              0             0             1 
+   158 x[6,2,Green] *              0             0             1 
+   159 x[6,2,Yellow]
+                    *              0             0             1 
+   160 x[6,2,Orange]
+                    *              0             0             1 
+   161 x[6,3,Blue]  *              0             0             1 
+   162 x[6,3,Red]   *              0             0             1 
+   163 x[6,3,Green] *              0             0             1 
+   164 x[6,3,Yellow]
+                    *              0             0             1 
+   165 x[6,3,Orange]
+                    *              0             0             1 
+   166 x[6,4,Blue]  *              0             0             1 
+   167 x[6,4,Red]   *              0             0             1 
+   168 x[6,4,Green] *              0             0             1 
+   169 x[6,4,Yellow]
+                    *              0             0             1 
+   170 x[6,4,Orange]
+                    *              0             0             1 
+   171 x[6,5,Blue]  *              0             0             1 
+   172 x[6,5,Red]   *              0             0             1 
+   173 x[6,5,Green] *              0             0             1 
+   174 x[6,5,Yellow]
+                    *              0             0             1 
+   175 x[6,5,Orange]
+                    *              0             0             1 
+   176 x[1,0,Blue]  *              0             0             1 
+   177 x[1,0,Red]   *              0             0             1 
+   178 x[1,0,Green] *              0             0             1 
+   179 x[1,0,Yellow]
+                    *              0             0             1 
+   180 x[1,0,Orange]
+                    *              0             0             1 
+   181 x[1,6,Blue]  *              0             0             1 
+   182 x[1,6,Red]   *              0             0             1 
+   183 x[1,6,Green] *              0             0             1 
+   184 x[1,6,Yellow]
+                    *              0             0             1 
+   185 x[1,6,Orange]
+                    *              0             0             1 
+   186 x[2,0,Blue]  *              0             0             1 
+   187 x[2,0,Red]   *              0             0             1 
+   188 x[2,0,Green] *              0             0             1 
+   189 x[2,0,Yellow]
+                    *              0             0             1 
+   190 x[2,0,Orange]
+                    *              0             0             1 
+   191 x[2,6,Blue]  *              0             0             1 
+   192 x[2,6,Red]   *              0             0             1 
+   193 x[2,6,Green] *              0             0             1 
+   194 x[2,6,Yellow]
+                    *              0             0             1 
+   195 x[2,6,Orange]
+                    *              0             0             1 
+   196 x[3,0,Blue]  *              0             0             1 
+   197 x[3,0,Red]   *              0             0             1 
+   198 x[3,0,Green] *              0             0             1 
+   199 x[3,0,Yellow]
+                    *              0             0             1 
+   200 x[3,0,Orange]
+                    *              0             0             1 
+   201 x[3,6,Blue]  *              0             0             1 
+   202 x[3,6,Red]   *              0             0             1 
+   203 x[3,6,Green] *              0             0             1 
+   204 x[3,6,Yellow]
+                    *              0             0             1 
+   205 x[3,6,Orange]
+                    *              0             0             1 
+   206 x[4,0,Blue]  *              0             0             1 
+   207 x[4,0,Red]   *              0             0             1 
+   208 x[4,0,Green] *              0             0             1 
+   209 x[4,0,Yellow]
+                    *              0             0             1 
+   210 x[4,0,Orange]
+                    *              0             0             1 
+   211 x[4,6,Blue]  *              0             0             1 
+   212 x[4,6,Red]   *              0             0             1 
+   213 x[4,6,Green] *              0             0             1 
+   214 x[4,6,Yellow]
+                    *              0             0             1 
+   215 x[4,6,Orange]
+                    *              0             0             1 
+   216 x[5,0,Blue]  *              0             0             1 
+   217 x[5,0,Red]   *              0             0             1 
+   218 x[5,0,Green] *              0             0             1 
+   219 x[5,0,Yellow]
+                    *              0             0             1 
+   220 x[5,0,Orange]
+                    *              0             0             1 
+   221 x[5,6,Blue]  *              0             0             1 
+   222 x[5,6,Red]   *              0             0             1 
+   223 x[5,6,Green] *              0             0             1 
+   224 x[5,6,Yellow]
+                    *              0             0             1 
+   225 x[5,6,Orange]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

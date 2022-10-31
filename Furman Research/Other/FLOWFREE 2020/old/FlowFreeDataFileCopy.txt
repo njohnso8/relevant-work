@@ -1,0 +1,25 @@
+data;
+
+
+set Paths := Blue, Red, Green, Yellow, Orange;
+
+set Rows := 1, 2, 3, 4, 5;
+
+set Columns := 1, 2, 3, 4, 5;
+
+set extRows := 0, 1, 2, 3, 4, 5, 6;
+
+set extColumns := 0, 1, 2, 3, 4, 5, 6;
+
+
+param y[1,1,'Red'] 1;
+param y[2,5,'Red'] 1;
+param y[2,4,'Green'] 1;
+param y[3,1,'Green'] 1;
+param y[3,2,'Blue'] 1;
+param y[3,5,'Blue'] 1;
+param y[4,4,'Yellow'] 1;
+param y[5,1,'Yellow'] 1;
+param y[4,5,'Orange'] 1;
+param y[5,2,'Orange'] 1;
+
