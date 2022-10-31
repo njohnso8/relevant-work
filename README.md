@@ -1,1 +1,3 @@
 # relevant-work
+
+My name is Noah Johnson, and I am currently a student at the Institute for Advanced Analytics at North Carolina State University pursuing a Master's of Science in Analytics degree.  This repository is intended to showcase much of the analytical work I've done over my undergraduate and graduate careers.  There are even a few side projects in the works, so stay tuned for those.  I am looking forward to adding to this repository as I continue my education in data science and analytics, both formally and through side projects.  Let me know if you have any feedback for me at njohnso8@ncsu.edu (institutional email, preferred) or nojotennis@gmail.com (personal email).
