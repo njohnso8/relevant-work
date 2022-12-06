@@ -6,8 +6,11 @@ Created on Sat Dec  3 20:54:21 2022
 @author: noahjohnson
 """
 
-f = open("/Users/noahjohnson/Downloads/relevant-work/Advent of Code/day2.txt")
-f = f.read().split("\n")
+import requests as rq
+
+f = rq.get("https://raw.githubusercontent.com/njohnso8/relevant-work/main/Advent%20of%20Code/day2.txt")
+f = f.text
+f = f.split("\n")
 f = f[0:len(f) - 1]
 
 #part 1
@@ -25,8 +28,6 @@ for i in range(len(f)):
         result_val = 3
     
     total_val = shape_val + result_val
-    if i < 5:
-        print(total_val)
     sum_results += total_val
     
 print("Strategy guide sum 1: {}".format(sum_results))

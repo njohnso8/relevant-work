@@ -7,9 +7,10 @@ Created on Tue Dec  6 07:24:14 2022
 """
 
 import pandas as pd 
+import requests as rq
 
-f = open("/Users/noahjohnson/Downloads/relevant-work/Advent of Code/day6.txt")
-f = f.read()
+f = rq.get("https://raw.githubusercontent.com/njohnso8/relevant-work/main/Advent%20of%20Code/day6.txt")
+f = f.text
 
 def find_unique(f: str, n: int):
     c_list = list(f[0:n])

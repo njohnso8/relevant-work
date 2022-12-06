@@ -7,8 +7,11 @@ Created on Sat Dec  3 20:14:38 2022
 """
 
 import numpy as np
-f = open("/Users/noahjohnson/Downloads/relevant-work/Advent of Code/day1.txt")
-f = f.read().split("\n")
+import requests as rq
+
+f = rq.get("https://raw.githubusercontent.com/njohnso8/relevant-work/main/Advent%20of%20Code/day1.txt")
+f = f.text
+f = f.split("\n")
 
 #part 1
 max_count = 0

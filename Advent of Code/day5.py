@@ -5,9 +5,11 @@ Created on Mon Dec  5 12:34:27 2022
 
 @author: noahjohnson
 """
+import requests as rq
 
-f = open("/Users/noahjohnson/Downloads/relevant-work/Advent of Code/day5.txt")
-f = f.read().split("\n\n")
+f = rq.get("https://raw.githubusercontent.com/njohnso8/relevant-work/main/Advent%20of%20Code/day5.txt")
+f = f.text
+f = f.split("\n\n")
 crates = f[0].split("\n")
 instructions = f[1].split("\n")
 instructions = instructions[0:(len(instructions) - 1)]

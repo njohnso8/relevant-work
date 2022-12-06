@@ -6,8 +6,11 @@ Created on Mon Dec  5 08:13:23 2022
 @author: noahjohnson
 """
 
-f = open("/Users/noahjohnson/Downloads/relevant-work/Advent of Code/day4.txt")
-f = f.read().split("\n")
+import requests as rq
+
+f = rq.get("https://raw.githubusercontent.com/njohnso8/relevant-work/main/Advent%20of%20Code/day4.txt")
+f = f.text
+f = f.split("\n")
 f = f[0:(len(f) - 1)]
 
 cont_count = 0
