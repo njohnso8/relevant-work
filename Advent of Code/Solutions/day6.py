@@ -9,7 +9,7 @@ Created on Tue Dec  6 07:24:14 2022
 import pandas as pd 
 import requests as rq
 
-f = rq.get("https://raw.githubusercontent.com/njohnso8/relevant-work/main/Advent%20of%20Code/day6.txt")
+f = rq.get("https://raw.githubusercontent.com/njohnso8/relevant-work/main/Advent%20of%20Code/Input/day6.txt")
 f = f.text
 
 def find_unique(f: str, n: int):

@@ -9,7 +9,7 @@ Created on Sat Dec  3 20:14:38 2022
 import numpy as np
 import requests as rq
 
-f = rq.get("https://raw.githubusercontent.com/njohnso8/relevant-work/main/Advent%20of%20Code/day1.txt")
+f = rq.get("https://raw.githubusercontent.com/njohnso8/relevant-work/main/Advent%20of%20Code/Input/day1.txt")
 f = f.text
 f = f.split("\n")
 

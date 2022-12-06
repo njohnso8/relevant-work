@@ -7,7 +7,7 @@ Created on Mon Dec  5 12:34:27 2022
 """
 import requests as rq
 
-f = rq.get("https://raw.githubusercontent.com/njohnso8/relevant-work/main/Advent%20of%20Code/day5.txt")
+f = rq.get("https://raw.githubusercontent.com/njohnso8/relevant-work/main/Advent%20of%20Code/Input/day5.txt")
 f = f.text
 f = f.split("\n\n")
 crates = f[0].split("\n")

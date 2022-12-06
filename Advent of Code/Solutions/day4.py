@@ -8,7 +8,7 @@ Created on Mon Dec  5 08:13:23 2022
 
 import requests as rq
 
-f = rq.get("https://raw.githubusercontent.com/njohnso8/relevant-work/main/Advent%20of%20Code/day4.txt")
+f = rq.get("https://raw.githubusercontent.com/njohnso8/relevant-work/main/Advent%20of%20Code/Input/day4.txt")
 f = f.text
 f = f.split("\n")
 f = f[0:(len(f) - 1)]
