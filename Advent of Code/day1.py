@@ -12,7 +12,7 @@ f = f.read().split("\n")
 
 #part 1
 max_count = 0
-curr_count = 0j
+curr_count = 0
 elf_count = 0
 max_elf_count = 0
 elf_counts = {}
