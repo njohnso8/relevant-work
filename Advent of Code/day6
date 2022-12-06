@@ -30,5 +30,5 @@ def find_unique(f: str, n: int):
     return count
 
 if __name__ == "__main__":
-    find_unique(f, 4)
-    find_unique(f, 14)
+    print("4 unique characters found at {0} characters.".format(find_unique(f, 4)))
+    print("14 unique characters found at {0} characters.".format(find_unique(f, 14)))
