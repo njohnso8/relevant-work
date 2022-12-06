@@ -6,3 +6,29 @@ Created on Tue Dec  6 07:24:14 2022
 @author: noahjohnson
 """
 
+import pandas as pd 
+
+f = open("/Users/noahjohnson/Downloads/relevant-work/Advent of Code/day6.txt")
+f = f.read()
+
+def find_unique(f: str, n: int):
+    c_list = list(f[0:n])
+    unique_found = False
+    count = n
+    while not unique_found or count == len(f):
+        num_unique = len(pd.unique(pd.Series(c_list)))
+        if num_unique == n:
+            unique_found = True
+        else:
+            c_list.remove(c_list[0])
+            c_list.append(f[count])
+            count += 1
+            
+    if count == len(f):
+        return -1
+    
+    return count
+
+if __name__ == "__main__":
+    find_unique(f, 4)
+    find_unique(f, 14)
