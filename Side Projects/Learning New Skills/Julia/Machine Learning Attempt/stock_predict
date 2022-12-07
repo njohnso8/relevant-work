@@ -1,0 +1,12 @@
+using DataFrames
+using Statistics
+
+dow = DataFrame(CSV.File("/Users/noahjohnson/Downloads/relevant-work/Side Projects/Learning New Skills/Julia/Machine Learning Attempt/Data/Processed_DJI.csv"))
+nas = DataFrame(CSV.File("/Users/noahjohnson/Downloads/relevant-work/Side Projects/Learning New Skills/Julia/Machine Learning Attempt/Data/Processed_NASDAQ.csv"))
+nyse = DataFrame(CSV.File("/Users/noahjohnson/Downloads/relevant-work/Side Projects/Learning New Skills/Julia/Machine Learning Attempt/Data/Processed_NYSE.csv"))
+russ = DataFrame(CSV.File("/Users/noahjohnson/Downloads/relevant-work/Side Projects/Learning New Skills/Julia/Machine Learning Attempt/Data/Processed_RUSSELL.csv"))
+sp = DataFrame(CSV.File("/Users/noahjohnson/Downloads/relevant-work/Side Projects/Learning New Skills/Julia/Machine Learning Attempt/Data/Processed_S&P.csv"))
+
+
+
+
