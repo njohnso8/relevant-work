@@ -21,7 +21,6 @@ f[-1] = f[-1][0:(len(f[-1]) - 1)]
 
 size_dict = {}
 curr_path = []
-numstring = "1234567890"
 
 ##get file sizes out 
 for i in range(len(f)):
