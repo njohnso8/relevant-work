@@ -26,6 +26,14 @@ result_str = ""
 for j in range(num_cycles):
     sig_scores_by_cycle.append((j + 1) * reg_val)
     curr_crt = j % 40
+    if curr_crt in sprite_pos:
+        result_str += "#"
+    else:
+        result_str += "."
+    
+    if (j + 1) % 40 == 0:
+        result_str += "\n"
+        
     counter_on_inst += 1
     if inst[index] == "addx" and counter_on_inst == 2:
         reg_val += num[counter_on_num]
@@ -35,13 +43,7 @@ for j in range(num_cycles):
         counter_on_inst = 0
         index += 1
     
-    if curr_crt in sprite_pos:
-        result_str += "#"
-    else:
-        result_str += "."
     
-    if (j + 1) % 40 == 0:
-        result_str += "\n"
     
 
 total_sig_score = 0
